@@ -1,0 +1,75 @@
+
+/* logo de te amo */
+  .logo{
+    width:290px;
+    height:270px; ;
+  }
+
+    hr{
+        margin-top:-170px;
+    }
+
+/* recuadro ppal contenido de informacion*/
+	.cuadro{
+	  margin-top:30px;
+	}
+
+	.cuadro h3{
+  	font-size:25px;
+	}	
+
+    #img1{
+       width:155px;
+       height:140px;
+       margin-top:-280px;
+       margin-left:60px;
+       animation-name: rotateinfinite;-webkit-animation-name: rotateinfinite;
+       animation-timing-function: linear;-webkit-animation-timing-function: linear;
+       animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;
+       animation-duration: 8s;-webkit-animation-duration: 8s;
+    }
+
+    @keyframes rotateinfinite {
+      from {
+        transform: rotateY(-360deg);
+      }
+      to {
+        transform: rotateY(0deg);
+      }
+    }
+    @-webkit-keyframes rotateinfinite {
+      from {
+        -webkit-transform: rotateY(-360deg);
+      }
+      to {
+        -webkit-transform: rotateY(0deg);
+      }
+    }
+
+    #img2{
+       width:155px;
+       height:140px;
+       margin-top:-320px;
+       margin-left:990px;
+       animation-name: rotateinfinite;-webkit-animation-name: rotateinfinite;
+       animation-timing-function: linear;-webkit-animation-timing-function: linear;
+       animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;
+       animation-duration: 8s;-webkit-animation-duration: 8s;
+    }
+
+    @keyframes rotateinfinite {
+      from {
+        transform: rotateY(0deg);
+      }
+      to {
+        transform: rotateY(-360deg);
+      }
+    }
+    @-webkit-keyframes rotateinfinite {
+      from {
+        -webkit-transform: rotateY(0deg);
+      }
+      to {
+        -webkit-transform: rotateY(-360deg);
+      }
+    }
