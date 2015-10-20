@@ -13,7 +13,7 @@
   	 <meta charset="UTF-8">
   	 <title>::Bienvenida Kmila::</title>
      
-  	 <link rel="stylesheet" type="text/css" href="css/home.css">
+  	 <link rel="stylesheet" type="text/css" href="css/style.css">
 
      <?php
         include ('inc/head_common.php');
