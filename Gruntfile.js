@@ -21,9 +21,15 @@ module.exports = function(grunt) {
                 },
             },
         },
+        serve: {
+            options: {
+                port: 8080
+            }
+        },
     });
     
     grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-serve');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default', ['watch']);
+    grunt.registerTask('default', ['watch','serve']);
 };
