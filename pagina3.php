@@ -1,28 +1,13 @@
-  <?php
-  include ("conexion.php");
-  session_start();
-  if(!isset($_SESSION["nombre"]) ){
-    die("<h1><center>ERROR 401 ACCESO NO AUTORIZADO DEBES LOGUEARTE CAMILA</center></h1>");
-  }else{
-    
-  ?>
-  <!DOCTYPE html>
-  <html>
+<!DOCTYPE html>
+<html>
   <head>
   	 <meta charset="UTF-8">
   	 <title>:: PrInCeSiTa::</title>
      <?php include 'inc/head_common.php'; ?>
   </head>
-
-  <body link="red" vlink="red" alink="red"><!--codigo para que link no cambien de color-->
-
-     
-<!-- include en el que esta el logo con el nombre con los fondos de los lados blancos en hd-->
-     <?php include 'inc/header.php'; ?>
-
-<!--0_________________________________________________________________________________________________________________________________________________________________________0-->
-               
-               <!-- recuadro principal de la pagina -->
+  <body>
+     <?php include 'inc/header.php'; ?>           
+     <!-- recuadro principal de la pagina -->
       <div class="text">        
           <article>
               <header>
@@ -107,7 +92,4 @@
 <!--0_________________________________________________________________________________________________________________________________________________________________________0-->
 
   </body>
-  </html>
-<?php
-}
-?>
+</html>

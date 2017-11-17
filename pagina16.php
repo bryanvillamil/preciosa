@@ -1,26 +1,20 @@
- <?php
-  include ("conexion.php");
-  session_start();
-  if(!isset($_SESSION["nombre"]) ){
-    die("<h1><center>ERROR 401 ACCESO NO AUTORIZADO DEBES LOGUEARTE CAMILA</center></h1>");
-  }else{
-    
-  ?>
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
   <head>
      <meta charset="UTF-8">
      <title>::FeItA::</title>
+
+     <?php include 'inc/head_common.php'; ?>
      
      <!--................Css con fonts para estilos de letra............--> 
 
-     <link rel="stylesheet" type="text/css" href="css/pagina16.css">
+     <link rel="stylesheet" type="text/css" href="css-old/pagina16.css">
      <link href='http://fonts.googleapis.com/css?family=Nova+Oval|
      Permanent+Marker|Fredericka+the+Great|Combo|Petit+Formal+Script|Marck+Script|Lobster|
      Gochi+Hand|Pacifico|Indie+Flower|Freckle+Face|Courgette|Handlee|
      Jacques+Francois+Shadow|Rock+Salt|Ribeye+Marrow|Kaushan+Script|Kranky' rel='stylesheet' 
      type='text/css'>
-     <link rel="stylesheet" href="css/normalize.min.css">
+     <link rel="stylesheet" href="css-old/normalize.min.css">
 
      <!--................librerias de jquery............-->
      <script src="jquery/jquery-1.6.3.min.js"></script>
@@ -29,7 +23,7 @@
 
   </head>
 
-  <body link="red" vlink="red" alink="red" class="pag"><!--codigo para que link no cambien de color-->
+  <body class="pag"><!--codigo para que link no cambien de color-->
 
      <header>
           <!-- cabecera de pagina-->
@@ -149,6 +143,3 @@
 
   </body>
   </html>
-<?php
-}
-?>

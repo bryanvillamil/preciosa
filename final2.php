@@ -1,12 +1,4 @@
-  <?php
-  include ("conexion.php");
-  session_start();
-  if(!isset($_SESSION["nombre"]) ){
-    die("<h1><center>ERROR 401 ACCESO NO AUTORIZADO DEBES LOGUEARTE CAMILA</center></h1>");
-  }else{
-    
-  ?>
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Mis Maneras de Decirte...</title>
@@ -21,7 +13,7 @@
         <meta name="keywords" content="images, boxes, template, thumbnail, css3, transition, jquery, template, fullscreen, grid, draggable" />
         <meta name="author" content="Codrops" />
         <link rel="shortcut icon" href="../favicon.ico"> 
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/preciosa/css/style.css" />
     <noscript>
       <style>
         .ib-main a{
@@ -596,6 +588,3 @@
         </script>
     </body>
 </html> 
-<?php
-}
-?>

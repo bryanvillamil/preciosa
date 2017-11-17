@@ -1,13 +1,5 @@
-  <?php
-  include ("conexion.php");
-  session_start();
-  if(!isset($_SESSION["nombre"]) ){
-    die("<h1><center>ERROR 401 ACCESO NO AUTORIZADO DEBES LOGUEARTE CAMILA</center></h1>");
-  }else{
-    
-  ?>
-  <!DOCTYPE html>
-  <html>
+<!DOCTYPE html>
+<html>
   <head>
   	 <meta charset="UTF-8">
   	 <title>:: Te AmO::</title>
@@ -99,7 +91,4 @@
 <!--0_________________________________________________________________________________________________________________________________________________________________________0-->
 
   </body>
-  </html>
-<?php
-}
-?>
+</html>

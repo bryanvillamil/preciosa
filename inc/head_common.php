@@ -1,6 +1,6 @@
      <!--................Css con fonts para estilos de letra............--> 
 
-  	 <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  	 <link rel="stylesheet" type="text/css" href="/preciosa/css/style.css">
      <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Nova+Oval|
      Permanent+Marker|Fredericka+the+Great|Combo|Petit+Formal+Script|Marck+Script|Lobster|
      Gochi+Hand|Pacifico|Indie+Flower|Amatic+SC:400,700|Freckle+Face|Courgette|Handlee|

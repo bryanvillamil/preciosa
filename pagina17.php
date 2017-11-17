@@ -1,16 +1,9 @@
-  <?php
-  include ("conexion.php");
-  session_start();
-  if(!isset($_SESSION["nombre"]) ){
-    die("<h1><center>ERROR 401 ACCESO NO AUTORIZADO DEBES LOGUEARTE CAMILA</center></h1>");
-  }else{
-    
-  ?>
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
   <head>
   	 <meta charset="UTF-8">
   	 <title>::FeItA::</title>
+     <?php include 'inc/head_common.php'; ?>
      
      <!--................Css con fonts para estilos de letra............--> 
 
@@ -592,6 +585,3 @@
 
   </body>
   </html>
-<?php
-}
-?>

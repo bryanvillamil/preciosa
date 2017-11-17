@@ -73,9 +73,9 @@ $(document).ready(function(){
     $(".imgcj").hide();
 })
 
-      $(document).click(function(){
-        $('.imgcj').toggle("explode");
-      });
+$(document).click(function(){
+$('.imgcj').toggle("explode");
+});
 
 
 
