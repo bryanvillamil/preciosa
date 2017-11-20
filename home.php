@@ -6,14 +6,14 @@
     </head>
     <body class="paginas home">
         <!-- recuadro principal de la pagina -->
-        <div class="container">  
+            <!-- 
             <div class="content-top">
 
                 <div class="logo">
                     <img src="" alt="">
                 </div>
 
-                <div class="manu">
+                <div class="menu">
                     <nav class="nav-bar">
                         <ul class="menu">
                             <li class="alpha hover-cycle"><a class="menu1" href="#">Bienvenida kmila a</a></li>
@@ -26,6 +26,7 @@
                     </nav>
                 </div>
             </div>
+            -->
             <div class="content-bottom">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -51,7 +52,7 @@
 
                         <div class="item">
                             <div class="dark">
-                                <h1 contenteditable="true">New York</h1>
+                                <h1 contenteditable="true">New </h1>
                             </div>
                         </div>
                     </div>
@@ -67,7 +68,6 @@
                     </a>
                 </div> 
             </div>
-        </div>
 
 
         <div class="box-text">
@@ -79,7 +79,7 @@
 
         <!-- botons -->
         <div class="buttons">
-            <a href="pagina1.php" class="btn-sig btn-primary">
+            <a href="pagina1.php" class="btn-sig btn btn-primary">
                 <img src="img/chulo.png" alt=""/>
                 Siguiente
             </a>

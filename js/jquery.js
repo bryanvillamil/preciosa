@@ -1,12 +1,12 @@
    
 
 $(document).ready(function(){
-    $("body").hide().fadeIn(3000);
+    //$("body").hide().fadeIn(3000);
 
 });
 
 $(document).ready(function(){
-    $(".pag").hide().fadeIn(1000);
+    //$(".pag").hide().fadeIn(1000);
 
 });
 

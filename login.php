@@ -19,34 +19,38 @@
 
 	       <!-- recuadro principal de la pagina  FORMULARIO -->
         <div class="container">
+            <div class="bg-img">
+                <img src="img/4k/ciudad.jpg" alt="">
+            </div>
             <div class ="cuadro">
-                <h3 class="text-center col-md-offset-1">HOLA AMOR</h3>
-                
+                <div class="titulo">
+                    <h3 class="">HOLA AMOR</h3>
+                </div>
                 <div class="formu form-group">   
                     <form action="home.php" class="form-horizontal" method="POST">
                         <div class="form-group">
-                            <label for="nombre" class="control-label col-sm-2 col-md-2">Nombre:</label>
-                            <div class="col-sm-10 col-md-10">
+                            <label for="nombre" class="control-label label">Nombre:</label>
+                            <div class="input">
                                 <input class="form-control" name="nombre" size="25" value="" placeholder="Ingresa aqui tu nombre amor" required/>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="nombre" class="control-label col-sm-2 col-md-2">MI Cedula:</label>
-                            <div class="col-sm-10 col-md-10">
+                            <label for="nombre" class="control-label label">MI Cedula:</label>
+                            <div class="input">
                                 <input class="form-control" name="cedula" size="25" type="text" placeholder="Ingresa aqui MI cedula" required/>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="correo" class="control-label col-sm-2 col-md-2">Novio:</label>
-                            <div class="col-sm-10 col-md-10">
+                            <label for="correo" class="control-label label">Novio:</label>
+                            <div class="input">
                                 <input class="form-control" name="novio" size="25" value="" placeholder="Ingresa el nombre que consideres" required/>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <div class="col-md-2 col-sm-offset-6 col-md-offset-6">
+                            <div class="enviar">
                                 <button class="btn btn-primary">Enviar</button>
                             </div>
                         </div>
@@ -54,8 +58,5 @@
                 </div>        
             </div>
         </div>
-       <script src="js/jquery.js"></script>
-       <!-- Latest compiled and minified JavaScript -->
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     </body>
 </html>
