@@ -4,3 +4,39 @@ body {
 		color: #000;
 	}
 }
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+body { 
+  margin: 0;
+}
+div { 
+  text-align: center;
+  background-size: cover;
+}
+div h1 { 
+  margin: 0;
+  font-size: 18vw; 
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.8;
+}
+.dark h1 {
+  color: #fff;
+  background: #000;
+  mix-blend-mode: darken;
+}
+.light h1 {
+  color: #000;
+  background: #fff;
+  font-size: 17vw;
+  mix-blend-mode: lighten;
+}
+.dark {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/chicago.jpg);
+}
+.light {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/houston.jpg);
+}
