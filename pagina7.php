@@ -2,26 +2,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
     <title>:: My BebE::</title>
     <?php include 'inc/head_common.php'; ?>
 </head>
 
-<body><!--codigo para que link no cambien de color-->
+<body class="paginas pag-7">
 
     <!-- include en el que esta el logo con el nombre con los fondos de los lados blancos en hd-->
     <?php include 'inc/header.php'; ?>
 
-    <!--0_________________________________________________________________________________________________________________________________________________________________________0-->
-
     <!-- recuadro principal de la pagina -->
-    <div class="text">  
+    <div class="contenedor">  
         <article>
-            <header>
+            <div class="caja">
                 <h1>Lunes 13 de Mayo </h1>
                 <p>Promesa del anillo</p>
                 <img src="img/anillo.jpg" alt=""/>
-
                 <br>
                 <p>Ese dia llegaste a mi casa con gerson se quedaron un ratico y luego subieron al parque 
                     por unas empanadas yo me quede en el balcon. tu, gerson y santiago se fueron a jugar... gerson 
@@ -31,9 +27,8 @@
                     lo meti en la reja.. y cuando te fuiste lo cogi y hasta el dia de hoy esta en mi biblia. te dije 
                     que queria comprar 2 anillos uno para ti y tro para mi obvio; me prometiste que los comprarias.
                 </p>
-            </header>
-            <br>
-            <header>
+            </div>
+            <div class="caja">
                 <h1>Miercoles 15 de Mayo</h1>
                 <p>Estabamos muy contentos comiendo de lo lindo hasta subiste a la 80 por unas 
                     empanadas que me encantaban. estabamos tan felices hasta que subi izza me llamo 
@@ -42,40 +37,23 @@
                     colgaste y comenzamos a discutir, discutimos muy feo. luego me llego un mensaje de 
                     jader y hasta ahi te llego la paciencia... arrancaste con mucha rabia para donde el. 
                 cuando volviste seguimos discutiendo. pero cuando te fuiste NO quedamos peliados.</p>
-            </header>
+            </div>
         </article>       
-
     </div>
 
     <div class="buttons">
-
         <a href="pagina6.php" class="btn-ant">
             <img src="img/x.png" alt=""/>
             Anterior
         </a>
-
         <a href="pagina8.php" class="btn-sig">
             <img src="img/chulo.png" alt=""/>
             Siguiente
         </a>
-
     </div>
 
-
-    <!--fin de cuadro de imagenes de premios de base de datos-->
-    <!--0_________________________________________________________________________________________________________________________________________________________________________0-->
-
-
-
-    <!--pie de pagina con nombre y año-->
+    <!-- include FOOTER -->
     <?php include 'inc/footer_common.php'; ?>
-
-
-
-    <!--0_________________________________________________________________________________________________________________________________________________________________________0-->
-
-
-    <!--0_________________________________________________________________________________________________________________________________________________________________________0-->
 
 </body>
 </html>

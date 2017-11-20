@@ -1,8 +1,11 @@
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
     <!--................Css con fonts para estilos de letra............--> 
-  	<link rel="stylesheet" type="text/css" href="/preciosa/css/style.css">
+  	<link rel="stylesheet" type="text/css" href="/preciosa/styles/css/style.css">
      
 
     <!--................librerias de jquery............-->    
