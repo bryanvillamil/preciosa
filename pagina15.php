@@ -5,30 +5,16 @@
   <meta charset="UTF-8">
   <title>::FeItA::</title>
 
+
+  <?php include ('inc/head_common.php'); ?>
+
   <!--................Css con fonts para estilos de letra............--> 
 
   <link rel="stylesheet" type="text/css" href="css/pagina15.css">
   <link rel="stylesheet" href="css/normalize.min.css">
-
-  <?php
-  include ('inc/head_common.php');
-  ?>
-
 </head>
 
 <body><!--codigo para que link no cambien de color-->
-
-  <header>
-    <!-- cabecera de pagina-->
-
-  </header>
-  <hr>
-  <br>
-
-  <!--0_________________________________________________________________________________________________________________________________________________________________________0-->
-
-  <!-- recuadro principal de la pagina -->
-
 
   <div class="contenedor">  
 

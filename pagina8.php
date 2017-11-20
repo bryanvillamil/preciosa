@@ -7,13 +7,10 @@
   <?php include 'inc/head_common.php'; ?>
 </head>
 
-<body link="red" vlink="red" alink="red"><!--codigo para que link no cambien de color-->
-
+<body><!--codigo para que link no cambien de color-->
 
   <!-- include en el que esta el logo con el nombre con los fondos de los lados blancos en hd-->
   <?php include 'inc/header.php'; ?>
-
-
 
   <!--0_________________________________________________________________________________________________________________________________________________________________________0-->
 

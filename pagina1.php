@@ -3,13 +3,11 @@
   <head>
   	 <meta charset="UTF-8">
   	 <title>:: Te AdOrO::</title>
-
      <!--include de cabecera con los link-->
      <?php include 'inc/head_common.php'; ?>
-
   </head>
 
-  <body link="red" vlink="red" alink="red"><!--codigo para que link no cambien de color-->
+  <body><!--codigo para que link no cambien de color-->
 
 
      

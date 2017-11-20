@@ -3,26 +3,8 @@
   <head>
      <meta charset="UTF-8">
      <title>::FeItA::</title>
-
      <?php include 'inc/head_common.php'; ?>
-     
-     <!--................Css con fonts para estilos de letra............--> 
-
-     <link rel="stylesheet" type="text/css" href="css-old/pagina16.css">
-     <link href='http://fonts.googleapis.com/css?family=Nova+Oval|
-     Permanent+Marker|Fredericka+the+Great|Combo|Petit+Formal+Script|Marck+Script|Lobster|
-     Gochi+Hand|Pacifico|Indie+Flower|Freckle+Face|Courgette|Handlee|
-     Jacques+Francois+Shadow|Rock+Salt|Ribeye+Marrow|Kaushan+Script|Kranky' rel='stylesheet' 
-     type='text/css'>
-     <link rel="stylesheet" href="css-old/normalize.min.css">
-
-     <!--................librerias de jquery............-->
-     <script src="jquery/jquery-1.6.3.min.js"></script>
-     <script type="text/javascript" src="jquery/jquery-ui.js"></script>
-     <script type="text/javascript" src="js/jquery.js"></script>
-
   </head>
-
   <body class="pag"><!--codigo para que link no cambien de color-->
 
      <header>
