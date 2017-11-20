@@ -13,15 +13,12 @@
   	 <meta charset="UTF-8">
   	 <title>::Bienvenida Kmila::</title>
      
-  	 <link rel="stylesheet" type="text/css" href="css/style.css">
 
-     <?php
-        include ('inc/head_common.php');
-     ?>
+     <?php include ('inc/head_common.php'); ?>
 
   </head>
 
-  <body link="red" vlink="red" alink="red"><!--codigo para que link no cambien de color-->
+  <body><!--codigo para que link no cambien de color-->
     
      
 <!--0_________________________________________________________________________________________________________________________________________________________________________0-->
