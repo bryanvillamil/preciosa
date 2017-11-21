@@ -1,42 +1,58 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+/*
+    body.home {
+        div { 
+            text-align: center;
+            background-size: cover;
+        }
+        div h1 { 
+            margin: 0;
+            font-size: 15rem; 
+            text-transform: uppercase;
+            font-family: Montserrat, sans-serif;
+            line-height: 1.8;
+        }
+        .dark h1 {
+            color: #fff;
+            background: #000;
+            mix-blend-mode: darken;
+        }
+        .light h1 {
+            color: #000;
+            background: #fff;
+            font-size: 17vw;
+            mix-blend-mode: lighten;
+        }
+        .dark {
+            background-image: url(../img/4k/corazon.jpg);
+        }
+        .light {
+            background-image: url(../img/4k/corazon.jpg);
+        }
+    }*/
 @import "styles/vendor/animate.css";
 @import "styles/vendor/owl.carousel.css";
-body {
-  background-color: pink;
+body.home {
+  height: 100%;
+  margin: 0 auto;
 }
-body .h1 {
-  color: #000;
+body.home .content-bottom {
+  height: 100%;
 }
-body {
-  margin: 0;
+body.home .content-bottom #myCarousel {
+  height: 100%;
 }
-div {
-  text-align: center;
+body.home .content-bottom #myCarousel .carousel-inner {
+  height: 100%;
+}
+body.home .content-bottom #myCarousel .carousel-inner .item {
+  height: 100%;
+  overflow: hidden;
+}
+body.home .content-bottom #myCarousel .carousel-inner .item img {
   background-size: cover;
-}
-div h1 {
-  margin: 0;
-  font-size: 18vw;
-  text-transform: uppercase;
-  font-family: Montserrat, sans-serif;
-  line-height: 1.8;
-}
-.dark h1 {
-  color: #fff;
-  background: #000;
-  mix-blend-mode: darken;
-}
-.light h1 {
-  color: #000;
-  background: #fff;
-  font-size: 17vw;
-  mix-blend-mode: lighten;
-}
-.dark {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/chicago.jpg);
-}
-.light {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/houston.jpg);
+  height: 100%;
+  width: 100%;
 }
 header {
   display: none;
@@ -116,6 +132,7 @@ header {
 .login .container .cuadro .titulo {
   width: 100%;
   padding-bottom: 2.5rem;
+  text-align: center;
 }
 @media (max-width: 768px) {
   .login .container .cuadro .titulo {

@@ -39,21 +39,15 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <div class="dark">
-                                <h1 contenteditable="true">Chicago</h1>
-                            </div>
+                            <img src="styles/img/4k/ciudadH.jpg">
                         </div>
 
                         <div class="item">
-                            <div class="light">
-                                <h1 contenteditable="true">Houston</h1>
-                            </div>
+                            <img src="styles/img/4k/ciudadT.jpg">
                         </div>
 
                         <div class="item">
-                            <div class="dark">
-                                <h1 contenteditable="true">New </h1>
-                            </div>
+                            <img src="styles/img/4k/ciudadP.jpg">
                         </div>
                     </div>
 
@@ -69,7 +63,6 @@
                 </div> 
             </div>
 
-
         <div class="box-text">
             <div class="descripcion">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste, in delectus error, ad minus consectetur excepturi sint quam aspernatur, magnam quas nemo numquam modi quos? Necessitatibus sapiente sit quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam amet repudiandae perferendis aperiam magni reiciendis recusandae accusamus repellat. Quisquam optio consectetur placeat libero deleniti, animi eius quae laborum necessitatibus repudiandae.</p>
@@ -80,7 +73,7 @@
         <!-- botons -->
         <div class="buttons">
             <a href="pagina1.php" class="btn-sig btn btn-primary">
-                <img src="img/chulo.png" alt=""/>
+                <img src="styles/img/chulo.png" alt=""/>
                 Siguiente
             </a>
         </div> 

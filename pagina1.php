@@ -50,11 +50,11 @@
 
     <div class="buttons">
         <a href="home.php" class="btn-ant">
-            <img src="img/x.png" alt=""/>
+            <img src="styles/img/x.png" alt=""/>
             Anterior
         </a>
         <a href="pagina2.php" class="btn-sig">
-            <img src="img/chulo.png" alt=""/>
+            <img src="styles/img/chulo.png" alt=""/>
             Siguiente
         </a>
     </div>    

@@ -20,7 +20,7 @@
 	       <!-- recuadro principal de la pagina  FORMULARIO -->
         <div class="container">
             <div class="bg-img">
-                <img src="img/4k/ciudad.jpg" alt="">
+                <img src="styles/img/4k/ciudad.jpg" alt="">
             </div>
             <div class ="cuadro">
                 <div class="titulo">
