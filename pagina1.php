@@ -49,7 +49,7 @@
     </div>
 
     <div class="buttons">
-        <a href="home.php" class="btn-ant">
+        <a href="inicio.php" class="btn-ant">
             <img src="styles/img/x.png" alt=""/>
             Anterior
         </a>
