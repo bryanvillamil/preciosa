@@ -6,8 +6,6 @@
 </head>
 
 <body class="paginas pag-17">
-
-
     <!-- recuadro principal de la pagina -->
     <div class="razones">
         <h1>100 razones de porque te AmoOo</h1>
@@ -522,29 +520,18 @@
 
         </div>
 
+    <!-- botons -->
+    <div class="buttons">
+        <a href="pagina16.php" class="btn-ant btn btn-danger">
+            <i class="fa fa-hand-o-left" aria-hidden="true"></i>
+        </a>
+        <a href="pagina18.php" class="btn-sig btn btn-primary">
+            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+        </a>
+    </div> 
 
-        <div class="buttons">
+    <!--pie de pagina con nombre y año-->
+    <?php include 'inc/footer_common.php'; ?>
 
-            <a href="pagina16.php" class="btn-ant">
-                <img src="img/x.png" alt=""/>
-                Anterior
-            </a>
-
-            <a href="pagina18.php" class="btn-sig">
-                <img src="img/chulo.png" alt=""/>
-                Siguiente
-            </a>
-
-        </div>
-
-
-        <!--fin de cuadro de imagenes de premios de base de datos-->
-        <!--0_________________________________________________________________________________________________________________________________________________________________________0-->
-
-
-
-        <!--pie de pagina con nombre y año-->
-        <?php include 'inc/footer_common.php'; ?>
-
-    </body>
-    </html>
+</body>
+</html>

@@ -36,16 +36,17 @@
             </div>        
         </div>
 
+        <!-- botons -->
         <div class="buttons">
-            <a href="login.html" class="btn-ant">
-                <img src="img/x.png" alt=""/>
-                NO
+            <a href="login.php" class="btn-tristeza btn btn-danger">
+                <i class="fa fa-times" aria-hidden="true"></i>
+                No
             </a>
-            <a href="final2.php" class="btn-sig">
-                <img src="img/f.png" alt=""/>
+            <a href="final2.php" class="btn-felicidad btn btn-success">
+                <i class="fa fa-heart" aria-hidden="true"></i>
                 Si
             </a>
-        </div>
+        </div> 
 
         <!-- include FOOTER -->
         <?php include 'inc/footer_common.php'; ?>

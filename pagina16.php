@@ -69,16 +69,15 @@
         </div>         
     </div>
 
+    <!-- botons -->
     <div class="buttons">
-        <a href="pagina15.php" class="btn-ant">
-            <img src="img/x.png" alt=""/>
-            Anterior
+        <a href="pagina15.php" class="btn-ant btn btn-danger">
+            <i class="fa fa-hand-o-left" aria-hidden="true"></i>
         </a>
-        <a href="pagina17.php" class="btn-sig">
-            <img src="img/chulo.png" alt=""/>
-            Siguiente
+        <a href="pagina17.php" class="btn-sig btn btn-primary">
+            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
         </a>
-    </div>
+    </div> 
 
     <!-- include FOOTER -->
     <?php include 'inc/footer_common.php'; ?>

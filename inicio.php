@@ -58,10 +58,10 @@
 
 		<!-- botons -->
         <div class="buttons">
-        	<a href="home.php" class="btn-ant btn btn-danger">
+        	<a href="login.php" class="btn-ant btn btn-danger">
 	            <i class="fa fa-hand-o-left" aria-hidden="true"></i>
 	        </a>
-            <a href="pagina1.php" class="btn-sig btn btn-primary">
+            <a href="home.php" class="btn-sig btn btn-primary">
                 <i class="fa fa-hand-o-right" aria-hidden="true"></i>
             </a>
         </div> 

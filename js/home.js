@@ -1,12 +1,19 @@
-jQuery('#btn-1 img').click(function() {     // aqui se le agrega al id que uno quiere cliquear para que haga la animacion
-        goToCategory('content');
-    });
 
-function goToCategory(content) {
-    jQuery('html, body').animate({
-        scrollTop: jQuery('#' + content).offset().top
-    }, 500);
-}
+$(document).ready(function() {
+	$('.animation').click(function(){
+	    $('html, body').animate({
+	        scrollTop: $(".Homegaleria").offset().top
+	    }, 2000);
+	});
+
+	setTimeout(function(){ 
+		$('html, body').animate({
+	        scrollTop: $(".Homegaleria").offset().top
+	    }, 2000);
+	}, 3000);
+});
+
+//Scroll Automatico
 
 
 (function(document, window, $) {

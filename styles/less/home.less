@@ -1,72 +1,200 @@
-    @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-    /*
-    body.home {
-        div { 
-            text-align: center;
-            background-size: cover;
-        }
-        div h1 { 
-            margin: 0;
-            font-size: 15rem; 
-            text-transform: uppercase;
-            font-family: Montserrat, sans-serif;
-            line-height: 1.8;
-        }
-        .dark h1 {
-            color: #fff;
-            background: #000;
-            mix-blend-mode: darken;
-        }
-        .light h1 {
-            color: #000;
-            background: #fff;
-            font-size: 17vw;
-            mix-blend-mode: lighten;
-        }
-        .dark {
-            background-image: url(../img/4k/corazon.jpg);
-        }
-        .light {
-            background-image: url(../img/4k/corazon.jpg);
-        }
-    }*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+/*
+body.home {
+    div { 
+        text-align: center;
+        background-size: cover;
+    }
+    div h1 { 
+        margin: 0;
+        font-size: 15rem; 
+        text-transform: uppercase;
+        font-family: Montserrat, sans-serif;
+        line-height: 1.8;
+    }
+    .dark h1 {
+        color: #fff;
+        background: #000;
+        mix-blend-mode: darken;
+    }
+    .light h1 {
+        color: #000;
+        background: #fff;
+        font-size: 17vw;
+        mix-blend-mode: lighten;
+    }
+    .dark {
+        background-image: url(../img/4k/corazon.jpg);
+    }
+    .light {
+        background-image: url(../img/4k/corazon.jpg);
+    }
+}*/
 
-    body.home {
+body.home {
+    height: 100%;
+    margin: 0 auto;
+    .content-bottom {
         height: 100%;
-        margin: 0 auto;
-        .content-bottom {
+        position: relative;
+        #myCarousel {
             height: 100%;
-            position: relative;
-            #myCarousel {
+            .carousel-inner {
                 height: 100%;
-                .carousel-inner {
+                .item {
                     height: 100%;
-                    .item {
+                    overflow: hidden;
+                    img {
+                        background-size: cover;
                         height: 100%;
-                        overflow: hidden;
-                        img {
-                            background-size: cover;
-                            height: 100%;
-                            width: 100%;
-                        }
+                        width: 100%;
                     }
                 }
             }
-            .flechaBottom {
-                position: absolute;
-                width: 30%;
-                bottom: 10%;
-                left: 0;
-                right: 0;
+        }  
+        .arrow-down {
+            margin: 0 auto;
+            position: absolute;
+            width: 30%;
+            left: 0;
+            right: 0;
+            bottom: 20%;
+            z-index: 99;
+            .animation {
+                cursor: pointer;
+                border-radius: 23px;
+                border-style: solid;
+                border-width: 3px;
+                box-sizing: border-box;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 100;
+                letter-spacing: 0px;
+                line-height: 24px;
                 margin: 0 auto;
-                text-align: center;
-                z-index: 99;
-                a {
+                max-height: 90px;
+                max-width: 45px;
+                min-height: 75px;
+                min-width: 43px;
+                opacity: 1;
+                padding: 0px;
+                transition: none 0s ease 0s;
+                visibility: inherit;
+                white-space: nowrap;
+                z-index: 8;
+                transform-origin: 50% 50% 0px;
+                transform: translate3d(0px, 0px, 0px);
+                border-color: #fff;
+                background: lightcoral;
+                span {
+                    border-radius: 50%;
+                    display: block;
+                    height: 15px;
+                    left: 43%;
+                    margin: -4px 0 0 -4px;
+                    position: absolute;
+                    top: 29%;
+                    width: 15px;
+                    background: #fff;
+                    -webkit-animation: scroll-down 2.5s linear infinite;
+                    -moz-animation: scroll-down 2.5s linear infinite;
+                    animation: scroll-down 2.5s linear infinite;
                 }
             }
         }
     }
 
+    .Homegaleria {
+        padding-top: 10rem;
+        .container {
+            .contenedor {
+                .caja {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .cont {
+                        a {
+                            transition: all .5s;
+                            overflow: hidden;
+                            //display: inline-block;
+                            width: 100%;
+                            &:hover {
+                                .box-img {
+                                    img {
+                                        filter: grayscale(0%);
+                                        transform: scale(1.1);
+                                    }
+                                }
+                            }
+                            .box-img {
+                                width: 100%;
+                                height: 100%;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    filter: grayscale(100%);
+                                    transition: all .5s;
+                                }
+                            }
+                        }
+                    }
+                    &.dos {
+                        .cont {
+                            width: 50%;
+                        }
+                    }
+                    &.tres {
+                        .cont {
+                            width: 33.333%;
+                        }
+                    }
+                    &.bottom {
+                        height: 720px;
+                        .grande {
+                            width: 50%;
+                        }
+                        .otros {
+                            width: 50%;
+                            .arriba {
+                                width: 100%;
+                            }
+                            .abajo {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// ***************************************
+// ---------- Keyframes Scroll -----------
+// ***************************************
+@keyframes scroll-down {
+    0% {
+        opacity: 1;
+        top: 25%;
+    }
+    15% {
+        opacity: 1;
+        top: 55%;
+    }
+    50% {
+        opacity: 0;
+        top: 75%;
+    }
+    100% {
+        opacity: 0;
+        top: 20%;
+    }
+}
 
 
 

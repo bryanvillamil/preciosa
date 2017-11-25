@@ -57,16 +57,15 @@
         </article>       
     </div>
 
+    <!-- botons -->
     <div class="buttons">
-        <a href="pagina12.php" class="btn-ant">
-            <img src="img/x.png" alt=""/>
-            Anterior
+        <a href="pagina12.php" class="btn-ant btn btn-danger">
+            <i class="fa fa-hand-o-left" aria-hidden="true"></i>
         </a>
-        <a href="pagina14.php" class="btn-sig">
-            <img src="img/chulo.png" alt=""/>
-            Siguiente
+        <a href="pagina14.php" class="btn-sig btn btn-primary">
+            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
         </a>
-    </div>
+    </div> 
 
     <!--pie de pagina con nombre y año-->
     <?php include 'inc/footer_common.php'; ?>

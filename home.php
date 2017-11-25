@@ -61,20 +61,88 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div> 
-            <div class="flechaBottom">
-                 <a id="btn-top">top</a>   
+            <div class="arrow-down">
+                <div class="animation">
+                    <span></span>
+                </div>
             </div>
         </div>
 
         
-        <div class="galeria">
-            <a id="content-1"></a>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quas sint unde cupiditate, blanditiis minus. Similique, cumque placeat saepe amet voluptate quasi deleniti pariatur assumenda, aperiam totam quisquam deserunt at!
+        <div class="Homegaleria">
+            <div class="container">
+                <div class="contenedor">
+                    <div class="caja dos">
+                        <div class="cont">
+                            <a href="">
+                                <div class="box-img">
+                                    <img src="styles/img/cam.jpeg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <a href="">
+                                <div class="box-img">
+                                    <img src="styles/img/risast.jpeg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="caja tres">
+                        <div class="cont">
+                            <a href="">
+                                <div class="box-img">
+                                    <img src="styles/img/tengoganasdeti/br.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont">  
+                            <a href="">
+                                <div class="box-img">
+                                    <img src="styles/img/tengoganasdeti/kyb.gif" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont"> 
+                            <a href="">
+                                <div class="box-img">
+                                    <img src="styles/img/tengoganasdeti/tu-y-yo.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="caja bottom">
+                        <div class="cont grande">   
+                            <a href="">
+                                <div class="box-img">
+                                    <img src="styles/img/licioso.jpeg" alt="">
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="cont otros">
+                            <a href="" class="arriba">
+                                <div class="box-img">
+                                    <img src="styles/img/nosotros.jpeg" alt="">
+                                </div>
+                            </a>
+                            <a href="" class="abajo">
+                                <div class="box-img">
+                                    <img src="styles/img/compartir.jpeg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- botons -->
         <div class="buttons">
-            <a href="inicio.php" class="btn-sig btn btn-primary">
+            <a href="inicio.php" class="btn-ant btn btn-danger">
+                <i class="fa fa-hand-o-left" aria-hidden="true"></i>
+            </a>
+            <a href="pagina1.php" class="btn-sig btn btn-primary">
                 <i class="fa fa-hand-o-right" aria-hidden="true"></i>
             </a>
         </div> 

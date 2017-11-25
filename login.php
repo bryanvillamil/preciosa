@@ -27,7 +27,7 @@
                     <h3 class="">HOLA AMOR</h3>
                 </div>
                 <div class="formu form-group">   
-                    <form action="home.php" class="form-horizontal" method="POST">
+                    <form action="inicio.php" class="form-horizontal" method="POST">
                         <div class="form-group">
                             <label for="nombre" class="control-label label">Nombre:</label>
                             <div class="input">

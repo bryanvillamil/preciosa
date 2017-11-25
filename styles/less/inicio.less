@@ -2,23 +2,23 @@ body.inicio {
     ul {
         list-style: none;
         padding: 0;
-        margin: 0
+        margin: 0;
+        li {
+            list-style: none;
+        }
     }
-
-    li {
-        list-style: none
-    }
-
     .inline-block {
-        display: inline-block
+        //display: inline-block;
     }
 
     .act-table {
-        display: table
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .act-table-cell {
-        display: table-cell
+        display: inline-block;
     }
 
     a,
@@ -26,31 +26,27 @@ body.inicio {
     a:focus,
     a:active {
         text-decoration: none;
-        color: inherit
+        color: inherit;
     }
 
     .text-center {
-        text-align: center
+        text-align: center;
     }
 
     .text-left {
-        text-align: left
+        text-align: left;
     }
 
     .text-right {
-        text-align: right
+        text-align: right;
     }
 
     .pull-right {
-        float: right
+        float: right;
     }
 
     .pull-left {
-        float: left
-    }
-
-    .ver-middle {
-        vertical-align: middle
+        float: left;
     }
 
     header {
@@ -61,58 +57,86 @@ body.inicio {
         z-index: 100;
         transition: 1s;
         -webkit-transition: 1s;
-        -moz-transition: 1s
+        -moz-transition: 1s;
+        nav {
+            ul {
+                background-color: rgba(255, 255, 255, 0.2);
+                overflow: hidden;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                display: inline-block;
+                margin: 0 auto; 
+                li {
+                    color: #fff;
+                    a {
+                        width: 100px;
+                        max-width: 150px;
+                        height: 50px;
+                        display: block;
+                        padding-top: 12px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        @media(max-width: 768px){
+            top: 1.5rem; 
+            nav {
+                ul {
+                    width: 80%;
+                    justify-content: space-between;
+                    li {
+                        width: 25%;
+                        a {
+                            max-width: initial;
+                            width: auto;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }  
+        }
     }
 
     header.go-out {
-        top: -150px
-    }
-
-    header nav ul {
-        background-color: rgba(255, 255, 255, 0.2);
-        overflow: hidden;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px
-    }
-
-    header nav ul li {
-        color: #fff
-    }
-
-    header nav ul li a {
-        width: 100px;
-        max-width: 150px;
-        height: 50px;
-        display: block;
-        padding-top: 12px;
-        font-size: 18px
+        top: -150px;
     }
 
     header nav ul li.active a,
     header nav ul li.active a:hover {
-        background-color: rgba(255, 255, 255, 0.2)
+        background-color: rgba(255, 255, 255, 0.2);
     }
 
     header nav ul li:hover a {
-        background-color: rgba(255, 255, 255, 0.1)
+        background-color: rgba(255, 255, 255, 0.1);
     }
 
     .page {
-        background-color: rgba(0, 0, 0, 0.2)
+        background-color: rgba(0, 0, 0, 0.2);
     }
 
     .page .act-table {
         width: 100%;
-        height: 100%
+        height: 100%;
     }
 
     .page .act-table .act-table-cell {
-        font-size: 120px;
+        font-size: 12rem;
         letter-spacing: 2px;
         text-shadow: 1px 2px 3px #333;
         font-weight: 500;
-        color: #fff
+        color: #fff;
+        @media(max-width: 991px){
+            font-size: 10rem;   
+        }
+        @media(max-width: 768px){
+            font-size: 5rem; 
+            width: 90%;  
+        }
+        @media(max-width: 400px){
+            font-size: 4rem;   
+        }
     }
 
     .page.active {
@@ -317,6 +341,17 @@ body.inicio {
             left: 2%;
             top: 4%;
             z-index: 9999;
+        }
+        @media(max-width: 768px){
+            .btn-sig, .btn-ant {
+                top: 30%;
+            }   
+        }
+        @media(max-width: 568px){
+            .btn-sig, .btn-ant {
+                top: initial;
+                bottom: 4%;
+            }   
         }
     }
 }
