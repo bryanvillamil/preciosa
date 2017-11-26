@@ -5,7 +5,7 @@
   	     <title>::Bienvenida Kmila::</title>
         <?php include ('inc/head_common.php'); ?>
     </head>
-    <body class="paginas inicio">
+    <body class="inicio">
     	<header>
     		<nav class="text-center">
     			<ul class="inline-block">

@@ -4,29 +4,7 @@
   	     <title>::Bienvenida Kmila::</title>
         <?php include ('inc/head_common.php'); ?>
     </head>
-    <body class="paginas home">
-        <!-- recuadro principal de la pagina -->
-        <!-- 
-        <div class="content-top">
-
-            <div class="logo">
-                <img src="" alt="">
-            </div>
-
-            <div class="menu">
-                <nav class="nav-bar">
-                    <ul class="menu">
-                        <li class="alpha hover-cycle"><a class="menu1" href="#">Bienvenida kmila a</a></li>
-                        <li class="hover-cycle"><a class="menu2" href="#">Nuestra Historia</a></li>
-                        <li class="hover-cycle"><a class="menu3" href="#">Por fin</a></li>
-                        <li class="hover-cycle"><a class="menu4" href="#">ha llegado el dia...</a></li>
-                        <li class="hover-cycle"><a class="menu5" href="#">No te imaginas cuanto he esperado para esto</a></li>
-                        <li class="hover-cycle"><a class="menu6" href="#">Att: bryan</a></li>     
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        -->
+    <body class="home">
         <div class="content-bottom">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -47,7 +25,15 @@
                     </div>
 
                     <div class="item">
-                        <img src="styles/img/4k/ciudadP.jpg">
+                        <img src="styles/img/4k/thomas.jpg">
+                    </div>
+
+                    <div class="item">
+                        <img src="styles/img/4k/paul.jpg">
+                    </div>
+
+                    <div class="item">
+                        <img src="styles/img/4k/roman.jpg">
                     </div>
                 </div>
 
@@ -70,6 +56,9 @@
 
         
         <div class="Homegaleria">
+            <div class="titulo">
+                <h2>Foticos</h2>
+            </div>
             <div class="container">
                 <div class="contenedor">
                     <div class="caja dos">

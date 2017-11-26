@@ -1,3 +1,232 @@
 header {
-	
+	position: relative;
+	background: rgba(0,0,0, .7);
+	margin-bottom: 8rem;
+	padding-bottom: 1rem;
+	@media(max-width: 1024px){
+		margin-bottom: 5rem;	
+		padding-bottom: .5rem;
+	}
+	@media(max-width: 768px){
+		margin-bottom: 3rem;	
+	}
+	.header-top {
+		display: flex;
+		justify-content: space-between;
+		@media(max-width: 768px){
+			padding-top: 1.5rem;
+		}	
+		.info {
+			padding-left: 2rem;
+			span {
+				color: #fff;
+				font-family: @fuente2;
+				font-size: 1.8rem;
+				letter-spacing: .5px;
+			}
+			@media(max-width: 768px){
+				padding-left: 1rem;
+				span {
+					font-size: 2.2rem;
+					font-weight: 600;
+				}	
+			}
+			@media(max-width: 568px){
+				span {
+					font-size: 1.8rem
+				}	
+			}
+		}
+		.nombres {
+			padding-right: 2rem;
+			span {
+				color: #fff;
+				font-family: @fuente2;
+				font-size: 1.8rem;
+				letter-spacing: .5px;
+			}
+			@media(max-width: 768px){
+				padding-right: 1rem;
+				span {
+					font-size: 2.2rem;
+					font-weight: 600;
+				}	
+			}
+			@media(max-width: 568px){
+				span {
+					font-size: 1.8rem
+				}	
+			}
+		}
+	}
+	.header-bottom {
+		padding-top: 1rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@media(max-width: 768px){
+			padding-top: 0;
+		}
+		@media(max-width: 568px){
+			flex-direction: column;
+		}
+		.logo {
+			padding-left: 2rem;
+			width: 40%;
+			display: inline-block;
+			img {
+				width: 12rem;
+			}
+			@media(max-width: 768px){
+				padding-left: 1rem;
+				img {
+					width: 10rem;
+				}
+			}
+			@media(max-width: 568px){
+				padding: 1rem 0 1rem;
+				width: 100%;
+				text-align: center;
+				img {
+					width: 12rem;
+				}
+			}
+		}
+		.menu {
+			width: 59%;
+			display: inline-block;
+			@media(max-width: 768px){
+				width: 100%;
+				text-align: right;	
+			}
+			button#nav-mobile-btn {
+				display: none;
+				margin-right: 1rem;
+				position: relative;
+			    float: right;
+			    margin-right: 15px;
+			    padding: 9px 10px;
+			    margin-top: 8px;
+			    margin-bottom: 8px;
+			    background-color: #fff;
+			    background-image: none;
+			    border: 1px solid transparent;
+			    border-radius: 4px;
+			    transition: all .5s;
+			    &:hover {
+			    	transform: scale(1.1);
+			    }
+			    .icon-bar {
+			        display: block;
+				    width: 22px;
+				    height: 2px;
+				    border-radius: 1px;
+				    background: #000;
+			    }
+			    .icon-bar+.icon-bar {
+			    	margin-top: 4px;
+			    }
+				@media(max-width: 768px){
+					display: inline-block;	
+				}
+			}
+			.menu-mobil {
+				@media(max-width: 768px){
+					display: none;	
+				}
+			}
+		}
+	}
+}
+
+
+
+// menu Mobil
+
+.nav-mobile {
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    visibility: hidden;
+    width: 300px;
+    height: 100%;
+    background: #fff;
+    padding: 15px;
+    overflow: auto;
+    transform: translate3d(-50%, 0, 0);
+    transition: all 0.5s;
+    &.open {
+    	visibility: visible;
+	    transition: transform 0.5s;
+	    transform: translate3d(0, 0, 0);
+    }
+    .cerrar {
+    	width: 100%;
+    	display: inline-block;
+	    i.fa-times {
+	    	position: absolute;
+		    top: 6px;
+		    right: 15px;
+		    font-size: 28px;
+		    cursor: pointer;
+		    width: 40px;
+		    height: 40px;
+		    line-height: 40px;
+		    text-align: center;
+		    background-color: transparent;
+		    transition: all 0.5s;
+		    border-radius: 4px;
+		    &:hover {
+		        color: #4f5154;
+	    		background-color: #f1f3f6;	
+		    }
+	    }
+    }
+    .logo {
+    	text-align: center;
+    	img {
+    		width: 15rem;
+    	}
+    }
+    h2.titleMenu {
+    	text-align: center;
+	    margin: 10px 0 25px;
+	    color: #4d4f52;
+	    //font-family: @font1;
+	    i {
+	    	margin-right: 10px;
+	    }
+    }
+    ul {
+    	padding: 0;
+    	list-style: none;
+    	li {
+    	    margin-bottom: 20px;
+    		padding-left: 10px;
+    		a {
+    		    margin-bottom: 10px;
+    			display: block;
+    			//color: @colorSecundario;
+    			&:hover {
+    				//color: @colorPrimario;
+    			}
+    		}
+    		&.dropdown {
+    			.dropdown-mobile {
+    				list-style: none;
+    				display: block !important;
+    				padding-left: 15px;
+    				border-left: 1px solid rgba(0, 0, 0, 0.08);
+    			}
+    		}
+    	}
+    }
+}
+
+#wrapper {
+	transition: all .5s;
+	&.open {
+    	transform: translate3d(300px, 0, 0);
+	}
 }
