@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<script>
+    if (localStorage.getItem("logueado") == "true") {
+
+    }else {
+        window.location = "/preciosa/login.php";
+    }
+</script>
 <html lang="en">
     <head>
         <title>Mis Maneras de Decirte...</title>

@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<script>
+    if (localStorage.getItem("logueado") == "true") {
+
+    }else {
+        window.location = "/preciosa/login.php";
+    }
+</script>
 <html>
     <head>
   	     <title>::Bienvenida Kmila::</title>
@@ -63,15 +70,15 @@
                 <div class="contenedor">
                     <div class="caja dos">
                         <div class="cont">
-                            <a href="">
-                                <div class="box-img">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                                <div class="box-img bg_fix">
                                     <img src="styles/img/cam.jpeg" alt="">
                                 </div>
                             </a>
                         </div>
                         <div class="cont">
-                            <a href="">
-                                <div class="box-img">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                                <div class="box-img bg_fix">
                                     <img src="styles/img/risast.jpeg" alt="">
                                 </div>
                             </a>
@@ -79,22 +86,22 @@
                     </div>
                     <div class="caja tres">
                         <div class="cont">
-                            <a href="">
-                                <div class="box-img">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                                <div class="box-img bg_fix">
                                     <img src="styles/img/tengoganasdeti/br.jpg" alt="">
                                 </div>
                             </a>
                         </div>
                         <div class="cont">  
-                            <a href="">
-                                <div class="box-img">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                                <div class="box-img bg_fix">
                                     <img src="styles/img/tengoganasdeti/kyb.gif" alt="">
                                 </div>
                             </a>
                         </div>
                         <div class="cont"> 
-                            <a href="">
-                                <div class="box-img">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                                <div class="box-img bg_fix">
                                     <img src="styles/img/tengoganasdeti/tu-y-yo.jpg" alt="">
                                 </div>
                             </a>
@@ -102,24 +109,29 @@
                     </div>
                     <div class="caja bottom">
                         <div class="cont grande">   
-                            <a href="">
-                                <div class="box-img">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                                <div class="box-img bg_fix">
                                     <img src="styles/img/licioso.jpeg" alt="">
                                 </div>
                             </a>
                         </div>
+    
+                        <div class="otros">
+                            <div class="cont bot">
+                                <a href="javascript:void(0)" class="arriba" data-toggle="modal" data-target="#myModal">
+                                    <div class="box-img bg_fix">
+                                        <img src="styles/img/nosotros.jpeg" alt="">
+                                    </div>
+                                </a>
+                            </div>
 
-                        <div class="cont otros">
-                            <a href="" class="arriba">
-                                <div class="box-img">
-                                    <img src="styles/img/nosotros.jpeg" alt="">
-                                </div>
-                            </a>
-                            <a href="" class="abajo">
-                                <div class="box-img">
-                                    <img src="styles/img/compartir.jpeg" alt="">
-                                </div>
-                            </a>
+                            <div class="cont bot">
+                                <a href="javascript:void(0)" class="abajo" data-toggle="modal" data-target="#myModal">
+                                    <div class="box-img bg_fix">
+                                        <img src="styles/img/compartir.jpeg" alt="">
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -138,6 +150,21 @@
 
         <!-- include FOOTER -->
         <?php include 'inc/footer_common.php'; ?>
+        
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </body>
 </html>

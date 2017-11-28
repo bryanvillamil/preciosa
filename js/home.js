@@ -1,5 +1,18 @@
 
 $(document).ready(function() {
+	// Funcion para el logueo
+	$( "#login" ).submit(function( event ) {
+	  	if ( $( "#nombre" ).val() === "camila" && $( "#cedula" ).val() === "1017200416" && $( "#novio" ).val() === "bryan") {
+		    $( "#validator" ).text( "Validated..." ).show();
+		    localStorage.setItem( "logueado" ,true);
+		    window.location.href= "/preciosa/inicio.php";
+	  	}
+	  	$( "#validator" ).text( "Not valid!" ).show().fadeOut( 1000 );
+	  	event.preventDefault();
+	});
+
+
+	// Animacion de scroll con el boton en Home
 	$('.animation').click(function(){
 	    $('html, body').animate({
 	        scrollTop: $(".Homegaleria").offset().top
@@ -11,6 +24,23 @@ $(document).ready(function() {
 	        scrollTop: $(".Homegaleria").offset().top
 	    }, 2000);
 	}, 3000);
+
+
+	// Bg fix para imagenes
+	$(".bg_fix").each(function(){
+        bg = $(this).find("img").eq(0).attr("src");
+        $(this).css("backgroundImage", "url("+ bg +")");
+        $(this).find("img").eq(0).css("display","none");
+    });
+
+	// Modal para Galeria de imagenes
+    $('.contenedor a').click(function(){
+		console.log($(this).index()); // nos muestra por consola el indicador del elemento
+		$('#myModal .modal-dialog .modal-content .modal-body').html(""); // Limpia el contenido
+		var src = $(this).find('div div img').attr('src'); // captura el atributo que se desee capturar. en este caso el src de la img
+		$('#myModal .modal-dialog .modal-content .modal-body').append('<img src="'+ src +'">'); // se agrega la img al modal y trae el src de la img
+
+	});
 });
 
 //Scroll Automatico
@@ -62,8 +92,8 @@ $(document).ready(function() {
 
 
 
-//Menu Responsive
 $(document).ready(function() {
+	//Menu Responsive
 	var abierto = false;
 	var espere = false;
 	console.log('ready');

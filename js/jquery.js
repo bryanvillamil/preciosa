@@ -1,7 +1,7 @@
    
 
 $(document).ready(function(){
-    //$("body").hide().fadeIn(3000);
+    // Funcion para el logueo
 
 });
 

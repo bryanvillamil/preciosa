@@ -1,5 +1,12 @@
 
 <!DOCTYPE html>
+<script>
+    if (localStorage.getItem("logueado") == "true") {
+
+    }else {
+        window.location = "/preciosa/login.php";
+    }
+</script>
 <html>
     <head>
   	     <title>::Bienvenida Kmila::</title>
