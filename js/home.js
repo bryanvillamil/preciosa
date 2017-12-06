@@ -33,18 +33,20 @@ $(document).ready(function() {
         $(this).find("img").eq(0).css("display","none");
     });
 
-	// Modal para Galeria de imagenes
-    $('.contenedor a').click(function(){
+	$('.contenedor a').click(function(){
 		console.log($(this).index()); // nos muestra por consola el indicador del elemento
 		$('#myModal .modal-dialog .modal-content .modal-body').html(""); // Limpia el contenido
-		var src = $(this).find('div div img').attr('src'); // captura el atributo que se desee capturar. en este caso el src de la img
-		$('#myModal .modal-dialog .modal-content .modal-body').append('<img src="'+ src +'">'); // se agrega la img al modal y trae el src de la img
+		var src = $(this).find('.bg_fix').css('background-image'); // captura el atributo que se desee capturar. en este caso el src de la img
+		bg = bg.replace('url(','').replace(')','');
+	    //alert(bg);
+		$('#myModal .modal-dialog .modal-content .modal-body').append('<img src="'+ bg +'">'); // se agrega la img al modal y trae el src de la img
 
 	});
 });
 
 //Scroll Automatico
 
+/*
 (function(document, window, $) {
 	var $ = jQuery;
 	jQuery(document).ready(function() {
@@ -89,7 +91,7 @@ $(document).ready(function() {
 		});
 	});
 })(document, window);
-
+*/
 
 
 $(document).ready(function() {
