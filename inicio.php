@@ -11,6 +11,8 @@
     <head>
   	     <title>::Bienvenida Kmila::</title>
         <?php include ('inc/head_common.php'); ?>
+        <!-- jquery para animaciones Botones -->
+        <script src="/preciosa/js/inicio.js"></script>
     </head>
     <body class="inicio">
     	<header>

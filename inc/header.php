@@ -49,6 +49,7 @@
 						  	</ul>
 						</div>
 					</li>
+					<li class="salir"><a href="./login.php">salir<i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
 				</ul>
 			</nav>
       	</div>	
