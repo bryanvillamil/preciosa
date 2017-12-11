@@ -576,11 +576,35 @@ header .header-bottom .menu .menu-mobil ul li .dropdown ul {
 }
 header .header-bottom .menu .menu-mobil ul li .dropdown ul li {
   width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+}
+header .header-bottom .menu .menu-mobil ul li .dropdown ul li.ultimo {
+  border-bottom: none;
 }
 header .header-bottom .menu .menu-mobil ul li .dropdown ul li a {
   color: #333;
   text-shadow: none;
   display: inline-block;
+  width: 100%;
+  padding: 8px 10px;
+  position: relative;
+}
+header .header-bottom .menu .menu-mobil ul li .dropdown ul li a:hover {
+  background: #29778B;
+  color: #fff;
+}
+header .header-bottom .menu .menu-mobil ul li .dropdown ul li a:hover i {
+  right: 1.8rem;
+  opacity: 1;
+}
+header .header-bottom .menu .menu-mobil ul li .dropdown ul li a i {
+  position: absolute;
+  right: .8rem;
+  opacity: 0;
+  transition: all .6s ease;
+  color: #fff;
+  top: 1rem;
 }
 header .header-bottom .menu .menu-mobil ul li.salir a {
   color: #29778B;

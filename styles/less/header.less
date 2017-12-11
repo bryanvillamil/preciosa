@@ -186,10 +186,37 @@ header {
 								text-align: center;
 								li {
 									width: 100%;
+									margin: 0;
+									border-bottom: 1px solid #ccc;
+									&.primero {
+										//margin-top: .5rem;
+									}
+									&.ultimo {
+										border-bottom: none;
+									}
 									a {
 										color: #333;
 										text-shadow: none;
 										display: inline-block;
+										width: 100%;
+										padding: 8px 10px;
+										position: relative;
+										&:hover {
+											background: #29778B;
+											color: #fff;
+											i {
+												right: 1.8rem;
+												opacity: 1;
+											}
+										}
+										i {
+											position: absolute;
+											right: .8rem;
+											opacity: 0;
+											transition: all .6s ease;
+											color: #fff;
+											top: 1rem;
+										}
 									}
 								}
 							}

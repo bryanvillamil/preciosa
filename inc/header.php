@@ -31,21 +31,21 @@
 						  	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Páginas
 						  	<span class="caret"></span></button>
 						  	<ul class="dropdown-menu">
-							    <li><a href="./pagina1.php">página 1</a></li>
-							    <li><a href="./pagina2.php">página 2</a></li>
-							    <li><a href="./pagina3.php">página 3</a></li>
-							    <li><a href="./pagina4.php">página 4</a></li>
-							    <li><a href="./pagina5.php">página 5</a></li>
-							    <li><a href="./pagina6.php">página 6</a></li>
-							    <li><a href="./pagina7.php">página 7</a></li>
-							    <li><a href="./pagina8.php">página 8</a></li>
-							    <li><a href="./pagina9.php">página 9</a></li>
-							    <li><a href="./pagina10.php">página 10</a></li>
-							    <li><a href="./pagina11.php">página 11</a></li>
-							    <li><a href="./pagina12.php">página 12</a></li>
-							    <li><a href="./pagina13.php">página 13</a></li>
-							    <li><a href="./pagina14.php">página 14</a></li>
-							    <li><a href="./pagina15.php">página 15</a></li>
+							    <li class="primero"><a href="./pagina1.php">página 1 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina2.php">página 2 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina3.php">página 3 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina4.php">página 4 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina5.php">página 5 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina6.php">página 6 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina7.php">página 7 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina8.php">página 8 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina9.php">página 9 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina10.php">página 10 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina11.php">página 11 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina12.php">página 12 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina13.php">página 13 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina14.php">página 14 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li class="ultimo"><a href="./pagina15.php">página 15 <i class="fa fa-share" aria-hidden="true"></i></a></li>
 						  	</ul>
 						</div>
 					</li>
