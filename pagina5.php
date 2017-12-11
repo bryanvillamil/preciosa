@@ -51,14 +51,19 @@
                             <h2>Viernes 5 de Abril</h2>
                         </div>
                         <div class="descripcion">
-                        <p>----NO IMPORTA- LILI GODMAN---</p>
+                        <p class="tituNoimporta">NO IMPORTA- LILI GODMAN 
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                                <i class="fa fa-headphones" aria-hidden="true"></i>
+                        </p>
                             <!-- reproductor de audio-->      
                             <section>
                                 <!--
                                 (controls autoplay loop) : reproduce automaticamente carga.
                                 (preload="auto" controls) : reproductor gris predeterminado pero hay que darle play para iniciar.
                                 -->
-                                <audio id="demo" src="music/no importa.mp3" preload="auto" controls></audio>
+                                <img src="/preciosa/styles/img/no-importa.jpg" alt="">
+                                <audio id="demo" src="music/no importa.mp3" preload="auto" controls autoplay loop></audio>
                             </section>
                         </div>
                     </div>

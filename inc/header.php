@@ -28,7 +28,7 @@
 					<li><a href="./home.php" itemprop="url">Home</a></li>
 					<li>
 						<div class="dropdown">
-						  	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Páginas
+						  	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Nuestra Historia
 						  	<span class="caret"></span></button>
 						  	<ul class="dropdown-menu">
 							    <li class="primero"><a href="./pagina1.php">página 1 <i class="fa fa-share" aria-hidden="true"></i></a></li>
@@ -45,7 +45,7 @@
 							    <li><a href="./pagina12.php">página 12 <i class="fa fa-share" aria-hidden="true"></i></a></li>
 							    <li><a href="./pagina13.php">página 13 <i class="fa fa-share" aria-hidden="true"></i></a></li>
 							    <li><a href="./pagina14.php">página 14 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li class="ultimo"><a href="./pagina15.php">página 15 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li class="ultimo"><a href="./pagina15.php">Nuestro album <i class="fa fa-share" aria-hidden="true"></i></a></li>
 						  	</ul>
 						</div>
 					</li>

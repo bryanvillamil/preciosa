@@ -1,0 +1,121 @@
+body.paginas {
+	//****** Pagina 15 ********
+	&.pag-15 {
+		background: url(../img/fondos/wood-bg.jpg);
+		background-size: cover;
+
+		.TableroAlbum {
+			ul {
+				li {
+					display: inline-block;
+					width: 24.5%;
+					clear: both;
+					padding: 0 0.625em 1.25em;
+					&:nth-child(even) {
+						a {
+							-webkit-transform: rotate(2deg);
+    						-moz-transform: rotate(2deg);
+						}
+					}
+					&:nth-child(3n) {
+						a {
+							-webkit-transform: none;
+							-moz-transform: none;
+							position: relative;
+							top: -5px;
+						}
+					}
+					&:nth-child(5n) {
+						a {
+							-webkit-transform: rotate(5deg);
+						    position: relative;
+						    right: 5px;
+						    -moz-transform: rotate(5deg);
+						}
+					}
+					&:nth-child(8n) {
+						a {
+							position: relative;
+						    right: 5px;
+						    top: 8px;
+						}
+					}
+					&:nth-child(11n) {
+						a {
+							position: relative;
+						  	top: 3px;
+						  	left: -5px;
+						}
+					}
+					a {
+						background: #fff;
+					    display: inline;
+					    float: left;
+					    margin: 0 0 27px 30px;
+					    width: auto;
+					    padding: 10px 10px 15px;
+					    text-align: center;
+					    font-family: "Marker Felt", sans-serif;
+					    text-decoration: none;
+					    color: #333;
+					    font-size: 18px;
+					    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+					    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+					    -webkit-transform: rotate(-2deg);
+					    -webkit-transition: -webkit-transform .15s linear;
+					    &:hover {
+					    	-webkit-transform: scale(1.25);
+						    -moz-transform: scale(1.25);
+						    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+						    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+						    position: relative;
+						    z-index: 5;
+					    }
+					    -moz-transform: rotate(-2deg);
+					    &:after {
+					    	content: attr(title);
+					    }
+					    img {
+					    	width: 100%;
+					    }
+					}
+				}
+			}
+		}
+		//carousel
+		#momentos {
+			height: 650px;
+			.carousel-inner {
+				height: 100%;
+				width: 60%;
+				margin: 0 auto;
+				border: 1rem solid #333;
+				.item {
+					height: 100%;
+					.cont {
+						height: 100%;
+						.bg_fix {
+							height: 100%;
+							background-size: contain;
+						}
+					}
+				}
+			}
+			.carousel-control {
+				background: none;
+				opacity: 1;
+				span {
+					color: #FF5F48;
+				}
+			}
+		}
+	}
+
+	//****** Pagina 16 ********
+
+
+	//****** Pagina 17 ********
+
+
+	//****** Pagina 18 ********
+}

@@ -29,44 +29,162 @@
             <div class="titulo">
                 <h1>AlGuNoS MoMeNtOs uNiCoS</h1>
             </div>
-
-            <div class="balones">
-                <div class="cont">
-                    <img src="img/1.jpg" class="img1">
-                </div>
-                <div class="cont2">
-                    <img src="img/9.jpg" class="img2">
-                </div>
-                <div class="cont3">
-                    <img src="img/3.jpg" class="img1">
-                </div>
-                <div class="cont4">
-                    <img src="img/5.jpg" class="img2">
-                </div>
-                <div class="cont5">
-                    <img src="img/Mi_Kmi.jpg" class="img1">
-                </div>
-                <div class="cont6">
-                    <img src="img/10.jpg" class="img2">
-                </div>
-                <div class="cont7">
-                    <img src="img/8.jpg" class="img1">
-                </div>
-                <div class="cont8">
-                    <img src="img/2.jpg" class="img2">
-                </div>
-                <div class="cont9">
-                    <img src="img/beso.jpg" class="img1">
-                </div>
-                <div class="cont10">
-                    <img src="img/bryan.jpg" class="img2">
-                </div>
-                <div class="cont11">
-                    <img src="img/inc.jpg" class="img1">
-                </div>
-                <div class="cont12">
-                    <img src="img/frases.jpg" class="img2">
-                </div>  
+        </div>
+        <div class="container">
+            <div class="TableroAlbum">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/Mi_Kmi.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/risast.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/3.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/santaelena.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/tengoganasdeti/kyb.gif">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/nosotros.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/campeones.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/9.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/1.jpg">
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/wow.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/8.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/meses.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/abraz.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/licioso.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/compartir.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/vista.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/mosa.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/bryan.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/tengoganasdeti/tu-y-yo.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/inc.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/tengoganasdeti/t.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/otras/otra.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/locos.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/locura.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/2.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/redo.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/oye.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/tengoganasdeti/odio.gif">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/mua.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="te amo">
+                            <img src="/preciosa/styles/img/pasion.jpeg">
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
 

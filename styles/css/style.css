@@ -570,7 +570,7 @@ header .header-bottom .menu .menu-mobil ul li .dropdown button:focus {
   outline: none;
 }
 header .header-bottom .menu .menu-mobil ul li .dropdown ul {
-  left: -6rem;
+  left: -2rem;
   padding: 0;
   text-align: center;
 }
@@ -595,7 +595,7 @@ header .header-bottom .menu .menu-mobil ul li .dropdown ul li a:hover {
   color: #fff;
 }
 header .header-bottom .menu .menu-mobil ul li .dropdown ul li a:hover i {
-  right: 1.8rem;
+  right: 1.2rem;
   opacity: 1;
 }
 header .header-bottom .menu .menu-mobil ul li .dropdown ul li a i {
@@ -1273,6 +1273,26 @@ body.paginas.pag-4 {
 body.paginas.pag-5 {
   background: url(../img/fondos/fondo.jpg);
 }
+body.paginas.pag-5 p.tituNoimporta {
+  padding: 1rem;
+  text-align: center;
+  color: #000;
+  font-size: 2.5rem !important;
+}
+body.paginas.pag-5 p.tituNoimporta i.fa {
+  position: relative;
+  right: -1rem;
+}
+body.paginas.pag-5 section {
+  text-align: center;
+}
+body.paginas.pag-5 section img {
+  width: 100%;
+  background-size: cover;
+}
+body.paginas.pag-5 section audio {
+  width: 100%;
+}
 body.paginas.pag-6 {
   background: url(../img/fondos/mike.jpg);
   background-size: cover;
@@ -1286,7 +1306,7 @@ body.paginas.pag-8 {
   background-size: cover;
 }
 body.paginas.pag-9 {
-  background: url(../img/fondos/mark.png);
+  background: url(../img/fondos/mark.jpg);
   background-size: cover;
 }
 body.paginas.pag-10 {
@@ -1302,12 +1322,106 @@ body.paginas.pag-12 {
   background-size: cover;
 }
 body.paginas.pag-13 {
-  background: url(../img/fondos/andras.jpg);
+  background: url(../img/fondos/michael.jpg);
   background-size: cover;
 }
 body.paginas.pag-14 {
   background: url(../img/fondos/andre.jpg);
   background-size: cover;
+}
+body.paginas.pag-15 {
+  background: url(../img/fondos/wood-bg.jpg);
+  background-size: cover;
+}
+body.paginas.pag-15 .TableroAlbum ul li {
+  display: inline-block;
+  width: 24.5%;
+  clear: both;
+  padding: 0 0.625em 1.25em;
+}
+body.paginas.pag-15 .TableroAlbum ul li:nth-child(even) a {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+}
+body.paginas.pag-15 .TableroAlbum ul li:nth-child(3n) a {
+  -webkit-transform: none;
+  -moz-transform: none;
+  position: relative;
+  top: -5px;
+}
+body.paginas.pag-15 .TableroAlbum ul li:nth-child(5n) a {
+  -webkit-transform: rotate(5deg);
+  position: relative;
+  right: 5px;
+  -moz-transform: rotate(5deg);
+}
+body.paginas.pag-15 .TableroAlbum ul li:nth-child(8n) a {
+  position: relative;
+  right: 5px;
+  top: 8px;
+}
+body.paginas.pag-15 .TableroAlbum ul li:nth-child(11n) a {
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
+body.paginas.pag-15 .TableroAlbum ul li a {
+  background: #fff;
+  display: inline;
+  float: left;
+  margin: 0 0 27px 30px;
+  width: auto;
+  padding: 10px 10px 15px;
+  text-align: center;
+  font-family: "Marker Felt", sans-serif;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  -webkit-transform: rotate(-2deg);
+  -webkit-transition: -webkit-transform 0.15s linear;
+  -moz-transform: rotate(-2deg);
+}
+body.paginas.pag-15 .TableroAlbum ul li a:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 5;
+}
+body.paginas.pag-15 .TableroAlbum ul li a:after {
+  content: attr(title);
+}
+body.paginas.pag-15 .TableroAlbum ul li a img {
+  width: 100%;
+}
+body.paginas.pag-15 #momentos {
+  height: 650px;
+}
+body.paginas.pag-15 #momentos .carousel-inner {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  border: 1rem solid #333;
+}
+body.paginas.pag-15 #momentos .carousel-inner .item {
+  height: 100%;
+}
+body.paginas.pag-15 #momentos .carousel-inner .item .cont {
+  height: 100%;
+}
+body.paginas.pag-15 #momentos .carousel-inner .item .cont .bg_fix {
+  height: 100%;
+  background-size: contain;
+}
+body.paginas.pag-15 #momentos .carousel-control {
+  background: none;
+  opacity: 1;
+}
+body.paginas.pag-15 #momentos .carousel-control span {
+  color: #FF5F48;
 }
 html {
   height: 100%;
