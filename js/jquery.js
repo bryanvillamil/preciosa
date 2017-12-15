@@ -1,19 +1,3 @@
-   
-
-$(document).ready(function(){
-    // Funcion para el logueo
-
-});
-
-$(document).ready(function(){
-    //$(".pag").hide().fadeIn(1000);
-
-});
-
-
-
-
-
     // menu typeface cycle
 
     $('.hover-cycle').find('a').on('mouseover', function(e) {
@@ -41,24 +25,18 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    	$('.img1').draggable();
 
+    	$('.img1').draggable();
     	$('.img1').click(function(){
             $(this).effect('explode',{pieces: 16 }, 2000);
     	});
-});
 
-$(document).ready(function(){
     	$('.img2').draggable();
-
     	$('.img2').click(function(){
             $(this).effect('explode',{pieces: 16 }, 2000);
     	});
-});
 
-$(document).ready(function(){
     	$('.titulo').draggable();
-
     	$('.titulo').click(function(){
             $('.titulo').effect('explode',{pieces: 16 }, 2000);
     	});
