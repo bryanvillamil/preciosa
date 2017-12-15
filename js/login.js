@@ -6,7 +6,7 @@ $(document).ready(function() {
 		    $( "#validator" ).text( "Validated..." ).show();
 		    localStorage.setItem( "logueado" ,true);
 		    $( "#validator" ).text( "Welcome!" ).show().fadeOut( 1000 );
-		    window.location.href= "/inicio.php";
+		    window.location.href= "./inicio.php";
 		    console.log(3);
 	  	}
 	  	$( "#validator" ).text( "Not valid!" ).show().fadeOut( 1000 );
