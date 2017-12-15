@@ -5,7 +5,7 @@
         <title>::HoLa KmI::</title>
         <?php include 'inc/head_common.php'; ?>
         <!-- jquery para animaciones Botones -->
-        <script src="js/login.js"></script>
+        <script src="./js/login.js"></script>
     </head>
     <body class="preciosa login"> 
 	       <!-- recuadro principal de la pagina  FORMULARIO -->
