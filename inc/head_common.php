@@ -15,7 +15,7 @@
 
 
     <!--................ Css Para carga de WEB (CSS) ............--> 
-    <link rel="stylesheet" type="text/css" href="/preciosa/styles/css/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/css/style.css">
 
 
 
