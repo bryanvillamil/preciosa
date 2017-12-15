@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 	setTimeout(function(){ 
 		$('html, body').animate({
-	        scrollTop: $(".Homegaleria").offset().top,
+	        scrollTop: $(".Homegaleria").offset().top
 	    }, 2000);
 	}, 3000);
 

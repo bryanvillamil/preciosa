@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>::HoLa KmI::</title>
+        <script src="js/login.js"></script>
         <?php include 'inc/head_common.php'; ?>
-        <!-- jquery para animaciones Botones -->
-        <script src="./js/login.js"></script>
+        <!-- jquery para animaciones Botones --> 
     </head>
     <body class="preciosa login"> 
 	       <!-- recuadro principal de la pagina  FORMULARIO -->
