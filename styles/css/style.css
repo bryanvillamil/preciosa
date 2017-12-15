@@ -1333,6 +1333,49 @@ body.paginas.pag-15 {
   background: url(../img/fondos/wood-bg.jpg);
   background-size: cover;
 }
+body.paginas.pag-15 .contenedor .titulo {
+  padding-bottom: 8rem;
+  width: 100%;
+  text-align: center;
+}
+body.paginas.pag-15 .contenedor .titulo h1 {
+  color: #ff5f49;
+  text-shadow: 1px 2px 2px #333;
+  font-size: 4.5rem;
+}
+@media (max-width: 768px) {
+  body.paginas.pag-15 .contenedor .titulo h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 568px) {
+  body.paginas.pag-15 .contenedor .titulo {
+    padding: 0 2rem 5rem;
+  }
+  body.paginas.pag-15 .contenedor .titulo h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 400px) {
+  body.paginas.pag-15 .contenedor .titulo h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1200px) {
+  body.paginas.pag-15 .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  body.paginas.pag-15 .container {
+    width: 100%;
+  }
+}
+body.paginas.pag-15 .TableroAlbum ul {
+  text-align: center;
+  padding: 0;
+}
 body.paginas.pag-15 .TableroAlbum ul li {
   display: inline-block;
   width: 24.5%;
@@ -1393,35 +1436,41 @@ body.paginas.pag-15 .TableroAlbum ul li a:hover {
 }
 body.paginas.pag-15 .TableroAlbum ul li a:after {
   content: attr(title);
+  position: relative;
+  top: .8rem;
 }
 body.paginas.pag-15 .TableroAlbum ul li a img {
   width: 100%;
 }
-body.paginas.pag-15 #momentos {
-  height: 650px;
+@media (max-width: 1200px) {
+  body.paginas.pag-15 .TableroAlbum ul li a {
+    margin: 0 0 35px 10px;
+  }
 }
-body.paginas.pag-15 #momentos .carousel-inner {
-  height: 100%;
-  width: 60%;
-  margin: 0 auto;
-  border: 1rem solid #333;
+@media (max-width: 768px) {
+  body.paginas.pag-15 .TableroAlbum ul li {
+    width: 30%;
+    margin: 0 5px;
+  }
+  body.paginas.pag-15 .TableroAlbum ul li a {
+    margin: 0 0 50px;
+  }
 }
-body.paginas.pag-15 #momentos .carousel-inner .item {
-  height: 100%;
+@media (max-width: 568px) {
+  body.paginas.pag-15 .TableroAlbum ul li {
+    width: 85%;
+  }
+  body.paginas.pag-15 .TableroAlbum ul li a {
+    margin: 0 0 20px;
+  }
+  body.paginas.pag-15 .TableroAlbum ul li a:hover {
+    transform: scale(1.1);
+  }
 }
-body.paginas.pag-15 #momentos .carousel-inner .item .cont {
-  height: 100%;
-}
-body.paginas.pag-15 #momentos .carousel-inner .item .cont .bg_fix {
-  height: 100%;
-  background-size: contain;
-}
-body.paginas.pag-15 #momentos .carousel-control {
-  background: none;
-  opacity: 1;
-}
-body.paginas.pag-15 #momentos .carousel-control span {
-  color: #FF5F48;
+@media (max-width: 350px) {
+  body.paginas.pag-15 .TableroAlbum ul li {
+    width: 92%;
+  }
 }
 html {
   height: 100%;

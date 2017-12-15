@@ -3,8 +3,47 @@ body.paginas {
 	&.pag-15 {
 		background: url(../img/fondos/wood-bg.jpg);
 		background-size: cover;
+		.contenedor {
+			.titulo {
+				padding-bottom: 8rem;
+				width: 100%;
+				text-align: center;
+				h1 {
+					color: #ff5f49;
+					text-shadow: 1px 2px 2px #333;
+					font-size: 4.5rem;
+				}
+				@media(max-width: 768px){
+					h1 {
+						font-size: 3.5rem;
+					}
+				}
+				@media(max-width: 568px){
+					padding: 0 2rem 5rem;
+					h1 {
+						font-size: 4rem;
+					}
+				}
+				@media(max-width: 400px){
+					h1 {
+						font-size: 3rem;
+					}
+				}
+			}
+		}
+		.container {
+			@media(max-width: 1200px){
+				width: 90%;
+				margin: 0 auto;
+			}
+			@media(max-width: 768px){
+				width: 100%;
+			}
+		}
 		.TableroAlbum {
 			ul {
+				text-align: center;
+				padding: 0;
 				li {
 					display: inline-block;
 					width: 24.5%;
@@ -73,40 +112,39 @@ body.paginas {
 					    -moz-transform: rotate(-2deg);
 					    &:after {
 					    	content: attr(title);
+					    	position: relative;
+					    	top: .8rem;
 					    }
 					    img {
 					    	width: 100%;
 					    }
 					}
-				}
-			}
-		}
-		//carousel
-		#momentos {
-			height: 650px;
-			.carousel-inner {
-				height: 100%;
-				width: 60%;
-				margin: 0 auto;
-				border: 1rem solid #333;
-				.item {
-					height: 100%;
-					.cont {
-						height: 100%;
-						.bg_fix {
-							height: 100%;
-							background-size: contain;
+					@media(max-width: 1200px){
+						a {
+							margin: 0 0 35px 10px;
+						} 
+					}
+					@media(max-width: 768px){
+						width: 30%; 
+						margin: 0 5px;
+						a {
+							margin: 0 0 50px;
 						}
 					}
+					@media(max-width: 568px){
+						width: 85%; 
+						a {
+							margin: 0 0 20px;
+							&:hover {
+								transform: scale(1.1);
+							}
+						}
+					}
+					@media(max-width: 350px){
+						width: 92%; 
+					}
 				}
-			}
-			.carousel-control {
-				background: none;
-				opacity: 1;
-				span {
-					color: #FF5F48;
-				}
-			}
+			}	
 		}
 	}
 
