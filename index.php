@@ -15,7 +15,7 @@
             </div>
             <div class ="cuadro">
                 <div class="titulo">
-                    <h3 class="">HOLA AMOR</h3>
+                    <h3 class="">Bienvenida Kmi</h3>
                 </div>
                 <div class="formu form-group">   
                     <form id="login" class="form-horizontal">
