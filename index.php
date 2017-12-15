@@ -1,79 +1,53 @@
-
 <!DOCTYPE html>
-<script>
-    if (localStorage.getItem("logueado") == "true") {
-
-    }else {
-        window.location = "/preciosa/login.php";
-    }
-</script>
 <html>
     <head>
-  	     <title>::Bienvenida Kmila::</title>
-        <?php include ('inc/head_common.php'); ?>
+        <meta charset="UTF-8">
+        <title>::HoLa KmI::</title>
+        <?php include 'inc/head_common.php'; ?>
         <!-- jquery para animaciones Botones -->
-        <script src="/preciosa/js/inicio.js"></script>
+        <script src="/js/login.js"></script>
     </head>
-    <body class="inicio">
-    	<header>
-    		<nav class="text-center">
-    			<ul class="inline-block">
-    				<li class="pull-left active"><a href="#" data-direction="front">1</a></li>
-    				<li class="pull-left"><a href="#" data-direction="back">2</a></li>
-    				<li class="pull-left"><a href="#" data-direction="top">3</a></li>
-    				<li class="pull-left"><a href="#" data-direction="right">4</a></li>
-    				<div class="clearfix"></div>
-    			</ul>
-    		</nav>
-    	</header>
-    	<div id="wrap">
-    		<div class="cube">
-    			<section class="page active face front" id="saludo">
-    				<div class="act-table text-center">
-    					<div class="act-table-cell ver-middle">Bienvenida</div>
-    				</div>
-    			</section>
-    			<section class="page face back" id="saludo">
-    				<div class="act-table text-center">
-    					<div class="act-table-cell ver-middle">Corazon <i class="fa fa-heart" aria-hidden="true"></i></div>
-    				</div>
-    			</section>
-    			<section class="page face top" id="saludo">
-    				<div class="act-table text-center">
-    					<div class="act-table-cell ver-middle">a tu Pagina web...</div>
-    				</div>
-    			</section>
-    			<section class="page face right" id="saludo">
-    				<div class="act-table text-center">
-    					<div class="act-table-cell ver-middle">Espero te Guste.</div>
-    				</div>
-    			</section>
+    <body class="preciosa login"> 
+	       <!-- recuadro principal de la pagina  FORMULARIO -->
+        <div class="container">
+            <div class="bg-img">
+                <img src="styles/img/4k/ciudad.jpg" alt="">
+            </div>
+            <div class ="cuadro">
+                <div class="titulo">
+                    <h3 class="">HOLA AMOR</h3>
+                </div>
+                <div class="formu form-group">   
+                    <form id="login" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="nombre" class="control-label label">Nombre:</label>
+                            <div class="input">
+                                <input class="form-control" id="nombre" name="nombre" size="25" value="" placeholder="Ingresa aqui tu nombre amor" required/>
+                            </div>
+                        </div>
 
+                        <div class="form-group">
+                            <label for="nombre" class="control-label label">MI Cedula:</label>
+                            <div class="input">
+                                <input class="form-control" id="cedula" name="cedula" size="25" type="text" placeholder="Ingresa aqui MI cedula" required/>
+                            </div>
+                        </div>
 
-    			<!--
-    			<section class="page face bottom" id="blog">
-    				<div class="act-table text-center">
-    					<div class="act-table-cell ver-middle">blog Page</div>
-    				</div>
-    			</section>
-    			<section class="page face left" id="article">
-    				<div class="act-table text-center">
-    					<div class="act-table-cell ver-middle">article Page</div>
-    				</div>
-    			</section>
-    			-->
-    		</div>
-    	</div>
-
-		<!-- botons -->
-        <div class="buttons">
-        	<a href="login.php" class="btn-ant btn btn-danger">
-	            <i class="fa fa-hand-o-left" aria-hidden="true"></i>
-	        </a>
-            <a href="home.php" class="btn-sig btn btn-primary">
-                <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-            </a>
-        </div> 
-
+                        <div class="form-group">
+                            <label for="correo" class="control-label label">Novio:</label>
+                            <div class="input">
+                                <input class="form-control" id="novio" name="novio" size="25" value="" placeholder="Ingresa el nombre que consideres" required/>
+                            </div>
+                        </div>
+                        <span id="validator"></span>
+                        <div class="form-group">
+                            <div class="enviar">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>        
+            </div>
+        </div>
     </body>
 </html>

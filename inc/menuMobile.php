@@ -12,7 +12,7 @@
                 <li><a href="./home.php" itemprop="url">Home</a></li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Páginas
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Nuestra Historia
                         <span class="caret"></span></button>
                         <ul class="dropdown-menu">
                             <li><a href="./pagina1.php">página 1</a></li>

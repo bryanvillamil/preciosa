@@ -3,7 +3,7 @@
     if (localStorage.getItem("logueado") == "true") {
 
     }else {
-        window.location = "/preciosa/login.php";
+        window.location = "./index.php";
     }
 </script>
 <html>

@@ -1,17 +1,5 @@
 
 $(document).ready(function() {
-	// Funcion para el logueo
-	$( "#login" ).submit(function( event ) {
-	  	if ( $( "#nombre" ).val() === "camila" && $( "#cedula" ).val() === "1017200416" && $( "#novio" ).val() === "bryan") {
-		    $( "#validator" ).text( "Validated..." ).show();
-		    localStorage.setItem( "logueado" ,true);
-		    window.location.href= "/preciosa/inicio.php";
-	  	}
-	  	$( "#validator" ).text( "Not valid!" ).show().fadeOut( 1000 );
-	  	event.preventDefault();
-	});
-
-
 	// Animacion de scroll con el boton en Home
 	$('.animation').click(function(){
 	    $('html, body').animate({
