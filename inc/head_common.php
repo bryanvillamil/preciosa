@@ -17,6 +17,8 @@
     <!-- script -->
     <script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
 
+    <!-- jquery para LOGUEO -->
+    <script src="js/login.js"></script>
     <!-- jquery -->
     <script src="js/home.js"></script>
 
