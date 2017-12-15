@@ -1,4 +1,4 @@
-jquery(document).ready(function() {
+$(document).ready(function() {
 	// Funcion para el logueo
 	$( "#login" ).submit(function( event ) {
 		console.log(4);
