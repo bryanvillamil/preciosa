@@ -235,6 +235,12 @@ body.paginas {
 
 	//****** Pagina 17 ********
 	&.pag-17 {
+		@media(max-width: 768px){
+			&:after {
+				position: relative;
+				display: inline-block;
+			}
+		}
 		&:after {
 			background: url(../img/fondos/raymond.jpg);
 			content: '';
@@ -262,7 +268,8 @@ body.paginas {
 					width: 90%;	
 				}
 				@media(max-width: 768px){
-					width: 100%;	
+					width: 100%;
+					background: transparent;	
 				}
 				.cuadros {
 					display: flex;
@@ -278,7 +285,7 @@ body.paginas {
 						&:after {
 							content: '';
 							display: inline-block;
-							background: rgba(0,0,0, .6);
+							background: rgba(0,0,0, .7);
 							position: absolute;
 							width: 100%;
 							height: 100%;
@@ -374,9 +381,26 @@ body.paginas {
 						}
 						@media(max-width: 768px){
 							width: 45%;
+							&:after {
+								background: rgba(0,0,0, .8);
+							}
+							.caja {
+								.box-text {
+									.description {
+										font-size: 2.5rem;
+									}
+								}
+							}
 						}
 						@media(max-width: 568px){
 							width: 100%;
+							.caja {
+								.box-text {
+									.description {
+										font-size: 3rem;
+									}
+								}
+							}
 						}
 					}
 				}
