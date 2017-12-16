@@ -10,7 +10,7 @@
 <head>
     <title>::FeItA::</title>
     <?php include 'inc/head_common.php'; ?>
-    <script src="/js/rompecabezas.js"></script>
+    <script src="js/rompecabezas.js"></script>
 </head>
 <body class="paginas pag-16">
 
