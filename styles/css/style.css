@@ -451,7 +451,7 @@ header .header-bottom {
 }
 header .header-bottom .logo {
   padding-left: 2rem;
-  width: 40%;
+  width: 15%;
   display: flex;
 }
 header .header-bottom .logo img {
@@ -476,10 +476,10 @@ header .header-bottom .logo img {
   }
 }
 header .header-bottom .menu {
-  width: 59%;
+  width: 84%;
   display: flex;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header .header-bottom .menu {
     text-align: right;
     justify-content: flex-end;
@@ -513,7 +513,7 @@ header .header-bottom .menu button#nav-mobile-btn .icon-bar {
 header .header-bottom .menu button#nav-mobile-btn .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header .header-bottom .menu button#nav-mobile-btn {
     display: inline-block;
   }
@@ -521,7 +521,7 @@ header .header-bottom .menu button#nav-mobile-btn .icon-bar + .icon-bar {
 header .header-bottom .menu .menu-mobil {
   width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header .header-bottom .menu .menu-mobil {
     display: none;
   }
@@ -608,9 +608,14 @@ header .header-bottom .menu .menu-mobil ul li .dropdown ul li a i {
   top: 1rem;
 }
 header .header-bottom .menu .menu-mobil ul li.salir a {
-  color: #29778B;
+  background: #29778b;
+  padding: 6px 18px;
+  color: #fff;
   text-shadow: 1px 1px 1px #333;
   transition: all .5s ease;
+}
+header .header-bottom .menu .menu-mobil ul li.salir a:hover {
+  background: #236677;
 }
 header .header-bottom .menu .menu-mobil ul li.salir a:hover .fa {
   right: -1.1rem;
@@ -620,6 +625,20 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
   position: relative;
   transition: all .5s ease;
   right: -0.7rem;
+}
+@media (max-width: 1200px) {
+  header .header-bottom .menu .menu-mobil ul li {
+    margin: 0 .5rem;
+  }
+  header .header-bottom .menu .menu-mobil ul li a {
+    font-size: 1.4rem;
+  }
+  header .header-bottom .menu .menu-mobil ul li .dropdown button {
+    font-size: 1.4rem;
+  }
+  header .header-bottom .menu .menu-mobil ul li.salir {
+    padding-left: 1.5rem;
+  }
 }
 .nav-mobile {
   position: fixed;
@@ -635,6 +654,11 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
   overflow: auto;
   transform: translate3d(-50%, 0, 0);
   transition: all 0.2s;
+}
+@media (min-width: 1024px) {
+  .nav-mobile {
+    display: none;
+  }
 }
 .nav-mobile.open {
   visibility: visible;
@@ -750,6 +774,11 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
 }
 #wrapper.open {
   transform: translate3d(300px, 0, 0);
+}
+@media (min-width: 1024px) {
+  #wrapper.open {
+    transform: translate3d(0, 0, 0);
+  }
 }
 .login {
   overflow: hidden;
@@ -1606,6 +1635,151 @@ body.paginas.pag-16 #previews .mini {
   height: 90px;
   margin-top: 5px;
   margin-right: 5px;
+}
+body.paginas.pag-17:after {
+  background: url(../img/fondos/raymond.jpg);
+  content: '';
+  display: block;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
+body.paginas.pag-17 #wrapper .titu {
+  margin-bottom: 5rem;
+  padding-top: 0 !important;
+}
+body.paginas.pag-17 #wrapper .titu h1 {
+  text-align: center;
+  color: #000;
+  text-shadow: 1px 2px 2px #000;
+}
+body.paginas.pag-17 #wrapper .container {
+  background: #fff;
+  padding-top: 2.5rem;
+}
+@media (max-width: 991px) {
+  body.paginas.pag-17 #wrapper .container {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  body.paginas.pag-17 #wrapper .container {
+    width: 100%;
+  }
+}
+body.paginas.pag-17 #wrapper .container .cuadros {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a {
+  width: 23%;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 0px 10px 2.5rem;
+  transition: all .5s;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a:after {
+  content: '';
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  right: 0;
+  transition: all .5s;
+  z-index: 1;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a:hover {
+  text-decoration: none;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a:hover:after {
+  top: 0;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a:hover .caja .box-img img {
+  transform: scale(1.1);
+}
+body.paginas.pag-17 #wrapper .container .cuadros a:hover .caja .box-text .titulo {
+  left: 1.2rem;
+  top: 1rem;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a:hover .caja .box-text .titulo h2 {
+  font-size: 3.2rem;
+  color: #fff;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a:hover .caja .box-text .description {
+  bottom: 32%;
+  opacity: 1;
+}
+@media (max-width: 1200px) {
+  body.paginas.pag-17 #wrapper .container .cuadros a:hover .caja .box-text .description {
+    bottom: 28%;
+  }
+}
+body.paginas.pag-17 #wrapper .container .cuadros a .caja .box-img {
+  overflow: hidden;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a .caja .box-img img {
+  transition: all .5s;
+  width: 100%;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a .caja .box-text .titulo {
+  transition: all .8s;
+  position: absolute;
+  width: 100%;
+  top: .5rem;
+  left: .5rem;
+  z-index: 2;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a .caja .box-text .titulo h2 {
+  margin: 0;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 2.5rem;
+  transition: all .5s;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a .caja .box-text .description {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  transition: all .5s;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+  z-index: 2;
+}
+@media (max-width: 1200px) {
+  body.paginas.pag-17 #wrapper .container .cuadros a {
+    width: 22%;
+  }
+  body.paginas.pag-17 #wrapper .container .cuadros a .caja .box-text .description {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 991px) {
+  body.paginas.pag-17 #wrapper .container .cuadros a {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  body.paginas.pag-17 #wrapper .container .cuadros a {
+    width: 45%;
+  }
+}
+@media (max-width: 568px) {
+  body.paginas.pag-17 #wrapper .container .cuadros a {
+    width: 100%;
+  }
 }
 html {
   height: 100%;

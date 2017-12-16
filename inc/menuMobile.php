@@ -11,8 +11,8 @@
     <div class="menu">  
         <nav class="menu-mobil">
             <ul>
-                <li><a href="./inicio.php" itemprop="url">Inicio</a></li>
-                <li><a href="./home.php" itemprop="url">Home</a></li>
+                <li><a href="./inicio.php" itemprop="url">Inicio <i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                    <li><a href="./home.php" itemprop="url">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
                 <li>
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
@@ -44,6 +44,10 @@
                         </div>
                     </div>
                 </li>
+                <li><a href="./pagina15.php">Nuestro album <i class="fa fa-camera-retro" aria-hidden="true"></i></a></li>
+                <li><a href="./pagina16.php">Juguemos <i class="fa fa-puzzle-piece" aria-hidden="true"></i></a></li>
+                <li><a href="./pagina17.php">!00 Razones <i class="fa fa-list-ol" aria-hidden="true"></i></a></li>
+                <li class="salir"><a href="./index.php">salir<i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
     </div>  

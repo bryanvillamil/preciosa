@@ -72,7 +72,7 @@ header {
 		}
 		.logo {
 			padding-left: 2rem;
-			width: 40%;
+			width: 15%;
 			display: flex;
 			img {
 				width: 12rem;
@@ -94,9 +94,9 @@ header {
 			}
 		}
 		.menu {
-			width: 59%;
+			width: 84%;
 			display: flex;
-			@media(max-width: 768px){
+			@media(max-width: 1024px){
 				//width: 100%;
 				text-align: right;	
 				justify-content: flex-end;
@@ -128,13 +128,13 @@ header {
 			    .icon-bar+.icon-bar {
 			    	margin-top: 4px;
 			    }
-				@media(max-width: 768px){
+				@media(max-width: 1024px){
 					display: inline-block;	
 				}
 			}
 			.menu-mobil {
 				width: 100%;
-				@media(max-width: 768px){
+				@media(max-width: 1024px){
 					display: none;	
 				}
 				ul {
@@ -223,10 +223,13 @@ header {
 						}
 						&.salir {
 							a {
-								color: #29778B;
+								background: #29778b;
+								padding: 6px 18px;
+								color: #fff;
 								text-shadow: 1px 1px 1px #333;
 								transition: all .5s ease;
 								&:hover {
+									background: darken(#29778b, 5%);
 									.fa {
 										right: -1.1rem;
 										transition: all .5s ease;
@@ -237,6 +240,20 @@ header {
 									transition: all .5s ease;
 									right: -.7rem;
 								}
+							}
+						}
+						@media(max-width: 1200px){
+							margin: 0 .5rem;
+							a {
+								font-size: 1.4rem;
+							}
+							.dropdown {
+								button {
+									font-size: 1.4rem;
+								}
+							}
+							&.salir {
+								padding-left: 1.5rem;
 							}
 						}
 					}
@@ -264,6 +281,9 @@ header {
     overflow: auto;
     transform: translate3d(-50%, 0, 0);
     transition: all 0.2s;
+    @media(min-width: 1024px){
+    	display: none;
+    }
     &.open {
     	visibility: visible;
 	    transition: transform 0.5s;
@@ -382,5 +402,8 @@ header {
 	transition: all .5s;
 	&.open {
     	transform: translate3d(300px, 0, 0);
+    	@media(min-width: 1024px){
+	    	transform: translate3d(0, 0, 0);
+	    }
 	}
 }
