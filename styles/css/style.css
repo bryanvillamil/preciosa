@@ -181,6 +181,7 @@ body.home .Homegaleria .container .contenedor .caja .cont {
   transition: all .5s;
   overflow: hidden;
   width: 100%;
+  border: 1px solid #fff;
 }
 body.home .Homegaleria .container .contenedor .caja .cont:hover .bg_fix {
   filter: grayscale(0%);
@@ -628,20 +629,27 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
   visibility: hidden;
   width: 300px;
   height: 100%;
-  background: #fff;
-  padding: 15px;
+  background: url('/styles/img/fondos/fondo-menu.png');
+  background-size: contain;
+  padding: 15px 0;
   overflow: auto;
   transform: translate3d(-50%, 0, 0);
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .nav-mobile.open {
   visibility: visible;
   transition: transform 0.5s;
   transform: translate3d(0, 0, 0);
 }
+.nav-mobile.open .cerrar {
+  display: inline-block;
+}
+.nav-mobile.open .menu {
+  display: block;
+}
 .nav-mobile .cerrar {
   width: 100%;
-  display: inline-block;
+  display: none;
 }
 .nav-mobile .cerrar i.fa-times {
   position: absolute;
@@ -675,17 +683,61 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
 .nav-mobile h2.titleMenu i {
   margin-right: 10px;
 }
+.nav-mobile .menu {
+  display: none;
+  margin-top: 5rem;
+  background: rgba(0, 0, 0, 0.7);
+}
 .nav-mobile ul {
   padding: 0;
   list-style: none;
 }
 .nav-mobile ul li {
-  margin-bottom: 20px;
-  padding-left: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 .nav-mobile ul li a {
-  margin-bottom: 10px;
-  display: block;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 12px 10px;
+  color: #fff;
+  transition: all .5s;
+}
+.nav-mobile ul li a:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #ff5f49;
+}
+.nav-mobile ul li #accordion {
+  margin-bottom: 0;
+}
+.nav-mobile ul li #accordion .panel {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+.nav-mobile ul li #accordion .panel-heading {
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+.nav-mobile ul li #accordion .panel-heading h4 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.nav-mobile ul li #accordion .panel-heading h4 a {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 10px 16px;
+  color: #fff;
+}
+.nav-mobile ul li #accordion .panel-heading h4 a:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #ff5f49;
 }
 .nav-mobile ul li.dropdown .dropdown-mobile {
   list-style: none;
@@ -1471,6 +1523,89 @@ body.paginas.pag-15 .TableroAlbum ul li a img {
   body.paginas.pag-15 .TableroAlbum ul li {
     width: 92%;
   }
+}
+body.paginas.pag-16 {
+  background: url(../img/fondos/keith.jpg);
+  background-size: cover;
+}
+body.paginas.pag-16 .titulo {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+body.paginas.pag-16 .titulo h1 {
+  color: #29778B;
+  text-shadow: 1px 1px 1px #000;
+}
+body.paginas.pag-16 .titulo h1 i.fa-puzzle-piece {
+  color: #ff5f49;
+  text-shadow: 1px 1px 1px #000;
+  padding-left: 1rem;
+  font-size: 5rem;
+}
+@media (max-width: 568px) {
+  body.paginas.pag-16 .titulo h1 {
+    font-size: 3rem;
+    padding: 0 1rem;
+  }
+  body.paginas.pag-16 .titulo h1 i {
+    padding-top: 1rem;
+    width: 100%;
+  }
+}
+body.paginas.pag-16 #canvas {
+  width: 336px;
+  height: 335px;
+  border: 1px solid gray;
+  background-color: black;
+}
+body.paginas.pag-16 #canvas #windiv {
+  display: none;
+}
+body.paginas.pag-16 #canvas .banner {
+  width: 370px;
+  font-size: 50px;
+  background-color: #f5f5dc;
+  position: relative;
+  text-align: center;
+  top: -60px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  left: -15px;
+  z-index: 2;
+}
+body.paginas.pag-16 #canvas .innerSquare {
+  width: 110px;
+  height: 110px;
+  float: left;
+}
+body.paginas.pag-16 #canvas .innerSquare.imageSquare {
+  font-size: 24px;
+  text-align: center;
+  border: 1px outset  #fff;
+}
+body.paginas.pag-16 #canvas .innerSquare.imageSquare:hover {
+  background-color: lightgray;
+}
+body.paginas.pag-16 #canvas .innerSquare.clickable:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+body.paginas.pag-16 #canvas .innerSquare.blank {
+  border: 1px inset #fff;
+  background: #fff;
+}
+body.paginas.pag-16 #previews {
+  width: 100%;
+  height: 100px;
+  background-color: lightgrey;
+  overflow: scroll;
+  text-align: center;
+  margin-top: 10px;
+}
+body.paginas.pag-16 #previews .mini {
+  width: 90px;
+  height: 90px;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 html {
   height: 100%;

@@ -128,10 +128,33 @@
                             <div class="cont bot">
                                 <a href="javascript:void(0)" class="abajo" data-toggle="modal" data-target="#myModal">
                                     <div class="box-img bg_fix">
-                                        <img src="styles/img/compartir.jpeg" alt="">
+                                        <img src="styles/img/nuevas/gris2.jpeg" alt="">
                                     </div>
                                 </a>
                             </div>
+                        </div>
+                    </div>
+                    <div class="caja tres">
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/nuevas/sentados.jpeg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont">  
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/nuevas/familia.jpeg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont"> 
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/nuevas/modelo.jpeg" alt="">
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>

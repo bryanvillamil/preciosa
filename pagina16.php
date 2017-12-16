@@ -10,6 +10,7 @@
 <head>
     <title>::FeItA::</title>
     <?php include 'inc/head_common.php'; ?>
+    <script src="/js/rompecabezas.js"></script>
 </head>
 <body class="paginas pag-16">
 
@@ -22,62 +23,15 @@
 
         <!-- recuadro principal de la pagina -->
         <div class="ppal">
-            <div id="nombre">
-                <h1>...El nombre que hace que me desvele cada Dia...</h1>
+            <div class="titulo">
+                <h1>Armemos Nuestro Amor <i class="fa fa-puzzle-piece" aria-hidden="true"></i></h1>
             </div>
-
-            <script>
-                alert('HAS CLICK EN EL CUADRO QUE QUIERAS PARA DESCRIBIR...');
-            </script>
-
-            <div class="cuad">
-                <img src="img/nombres/cami.jpg" class="imgcj">
+            <div class="contenedor">
+                <main>
+                    <div id="canvas"></div>
+                    <div id="previews"></div>
+                </main>
             </div>
-            <div class="cuad2">
-                <img src="img/nombres/cami2.jpg" class="imgcj">
-            </div> 
-            <div class="cuad3">
-                <img src="img/nombres/cami3.jpg" class="imgcj">
-            </div>
-            <div class="cuad4">
-                <img src="img/nombres/cami4.jpg" class="imgcj">
-            </div>
-            <div class="cuad">
-                <img src="img/nombres/cami5.png" class="imgcj">
-            </div> 
-            <div class="cuad2">
-                <img src="img/nombres/cami6.png" class="imgcj">
-            </div>
-            <div class="cuad3">
-                <img src="img/nombres/cami7.jpg" class="imgcj">
-            </div>
-            <div class="cuad4">
-                <img src="img/nombres/cami8.gif" class="imgcj">
-            </div> 
-            <div class="cuad">
-                <img src="img/nombres/cami9.png" class="imgcj">
-            </div>
-            <div class="cuad2">
-                <img src="img/nombres/cami10.jpg" class="imgcj">
-            </div> 
-            <div class="cuad3">
-                <img src="img/nombres/cami11.jpg" class="imgcj">
-            </div>
-            <div class="cuad4">
-                <img src="img/nombres/cami12.jpg" class="imgcj">
-            </div>
-            <div class="cuad">
-                <img src="img/nombres/cami13.jpg" class="imgcj">
-            </div> 
-            <div class="cuad2">
-                <img src="img/nombres/cami14.jpg" class="imgcj">
-            </div>
-            <div class="cuad3">
-                <img src="img/nombres/cami15.jpg" class="imgcj">
-            </div>
-            <div class="cuad4">
-                <img src="img/nombres/cami16.jpg" class="imgcj">
-            </div>         
         </div>
 
         <!-- botons -->

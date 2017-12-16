@@ -258,19 +258,26 @@ header {
     visibility: hidden;
     width: 300px;
     height: 100%;
-    background: #fff;
-    padding: 15px;
+    background: url('/styles/img/fondos/fondo-menu.png');
+    background-size: contain;
+    padding: 15px 0;
     overflow: auto;
     transform: translate3d(-50%, 0, 0);
-    transition: all 0.5s;
+    transition: all 0.2s;
     &.open {
     	visibility: visible;
 	    transition: transform 0.5s;
 	    transform: translate3d(0, 0, 0);
+	    .cerrar {
+	    	display: inline-block;
+	    }
+	    .menu {
+	    	display: block;
+	    }
     }
     .cerrar {
     	width: 100%;
-    	display: inline-block;
+    	display: none;
 	    i.fa-times {
 	    	position: absolute;
 		    top: 6px;
@@ -305,18 +312,58 @@ header {
 	    	margin-right: 10px;
 	    }
     }
+    .menu {
+    	display: none;
+    	margin-top: 5rem;
+    	background: rgba(0,0,0, .7);
+    }
     ul {
     	padding: 0;
     	list-style: none;
     	li {
-    	    margin-bottom: 20px;
-    		padding-left: 10px;
+    		border-top: 1px solid #fff;
+    		border-bottom: 1px solid #fff;
     		a {
-    		    margin-bottom: 10px;
-    			display: block;
-    			//color: @colorSecundario;
+    			display: inline-block;
+    			width: 100%;
+    			text-align: center;
+    			padding: 12px 10px;
+    			color: #fff;
+    			transition: all .5s;
     			&:hover {
-    				//color: @colorPrimario;
+    				text-decoration: none;
+    				background: #fff;
+    				color: #ff5f49
+    			}
+    		}
+    		#accordion {
+    			margin-bottom: 0;
+    			.panel {
+    				border: none;
+    				box-shadow: none;
+    				background: transparent;
+    			}
+    			.panel-heading {
+    				padding: 0;
+    				border: none;
+    				box-shadow: none;
+    				background: transparent;
+    				h4 {
+    					display: inline-block;
+    					width: 100%;
+    					text-align: center;
+    					a {
+    						display: inline-block;
+    						width: 100%;
+    						padding: 12px 10px 16px;
+    						color: #fff;
+    						&:hover {
+			    				text-decoration: none;
+			    				background: #fff;
+			    				color: #ff5f49
+			    			}
+    					}
+    				}
     			}
     		}
     		&.dropdown {
