@@ -363,12 +363,11 @@ body.home #myModalHome .modal-dialog .modal-content .modal-footer button {
 }
 @media (max-width: 768px) {
   body.home #myModalHome .modal-dialog {
-    position: absolute;
-    top: 15%;
-    left: 0;
-    right: 0;
     width: 90%;
     margin: 0 auto;
+  }
+  body.home #myModalHome .modal-dialog .modal-content .modal-body {
+    padding: 10px;
   }
 }
 @keyframes scroll-down {
