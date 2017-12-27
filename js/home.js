@@ -62,4 +62,27 @@ $(document).ready(function() {
 			$('.nav-mobile').removeClass(' open');
 		};
 	});
+
+
+
+	// Scroll Top para flecha
+	$(window).on('scroll',function(){ 
+	    if($(window).scrollTop() > 400){ $('#ttop').css('opacity',.5);}
+	    else {$('#ttop').css('opacity',0);}
+	});
+	// Animacion de scroll con el boton en Home
+	$('#ttop').click(function(){
+	    $('html, body').animate({
+	        scrollTop: $("body").offset().top
+	    }, 2000);
+	});
 });
+
+
+
+
+
+
+
+
+

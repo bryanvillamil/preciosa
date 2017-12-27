@@ -1446,6 +1446,9 @@
 
         <!--pie de pagina con nombre y año-->
         <?php include 'inc/footer_common.php'; ?>
+
+         <!-- Scroll Ttop -->
+        <a href="#main_header" id="ttop" class="sscroll" style="opacity: 0.5;"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
     </div>
 </body>
 </html>

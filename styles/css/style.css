@@ -1935,3 +1935,21 @@ html {
 .btn-felicidad {
   color: #fff;
 }
+#ttop {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+  opacity: 0;
+  z-index: 1199;
+  cursor: pointer;
+  color: #000;
+  text-align: center;
+  font-size: 3rem;
+  transition: all .5s ease;
+}
+#ttop:hover {
+  color: #ff5f49;
+  opacity: .8 !important;
+}
