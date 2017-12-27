@@ -330,18 +330,9 @@ body.home .Homegaleria .container .contenedor .caja.bottom .otros-abajo {
   }
 }
 body.home #myModalHome {
-  text-align: center;
-}
-body.home #myModalHome:before {
-  display: inline-block;
-  vertical-align: middle;
-  content: '';
-  height: 100%;
-}
-body.home #myModalHome .modal-dialog {
-  display: inline-block;
-  vertical-align: middle;
-  text-align: left;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 }
 body.home #myModalHome .modal-dialog .modal-content .modal-body img {
   width: 100%;
