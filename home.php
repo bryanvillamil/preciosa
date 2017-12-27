@@ -70,14 +70,14 @@
                 <div class="contenedor">
                     <div class="caja dos">
                         <div class="cont">
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/cam.jpeg" alt="">
                                 </div>
                             </a>
                         </div>
                         <div class="cont">
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/risast.jpeg" alt="">
                                 </div>
@@ -86,21 +86,21 @@
                     </div>
                     <div class="caja tres">
                         <div class="cont">
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/tengoganasdeti/br.jpg" alt="">
                                 </div>
                             </a>
                         </div>
                         <div class="cont">  
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/tengoganasdeti/kyb.gif" alt="">
                                 </div>
                             </a>
                         </div>
                         <div class="cont"> 
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/tengoganasdeti/tu-y-yo.jpg" alt="">
                                 </div>
@@ -109,24 +109,22 @@
                     </div>
                     <div class="caja bottom">
                         <div class="cont grande">   
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/licioso.jpeg" alt="">
                                 </div>
                             </a>
                         </div>
-    
                         <div class="otros">
-                            <div class="cont bot">
-                                <a href="javascript:void(0)" class="arriba" data-toggle="modal" data-target="#myModal">
+                            <div class="cont otros-arriba">
+                                <a href="javascript:void(0)" class="arriba" data-toggle="modal" data-target="#myModalHome">
                                     <div class="box-img bg_fix">
                                         <img src="styles/img/nosotros.jpeg" alt="">
                                     </div>
                                 </a>
                             </div>
-
-                            <div class="cont bot">
-                                <a href="javascript:void(0)" class="abajo" data-toggle="modal" data-target="#myModal">
+                            <div class="cont otros-abajo">
+                                <a href="javascript:void(0)" class="abajo" data-toggle="modal" data-target="#myModalHome">
                                     <div class="box-img bg_fix">
                                         <img src="styles/img/nuevas/gris2.jpeg" alt="">
                                     </div>
@@ -136,21 +134,21 @@
                     </div>
                     <div class="caja tres">
                         <div class="cont">
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/nuevas/sentados.jpeg" alt="">
                                 </div>
                             </a>
                         </div>
                         <div class="cont">  
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/nuevas/familia.jpeg" alt="">
                                 </div>
                             </a>
                         </div>
                         <div class="cont"> 
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/nuevas/modelo.jpeg" alt="">
                                 </div>
@@ -175,7 +173,7 @@
         <?php include 'inc/footer_common.php'; ?>
         
         <!-- Modal -->
-        <div id="myModal" class="modal fade" role="dialog">
+        <div id="myModalHome" class="modal fade" role="dialog">
             <div class="modal-dialog">
                 <!-- Modal content-->
                 <div class="modal-content">
@@ -183,7 +181,7 @@
 
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o" aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>

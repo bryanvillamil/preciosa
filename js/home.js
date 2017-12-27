@@ -23,11 +23,11 @@ $(document).ready(function() {
 
 	$('.contenedor > div > div').click(function(){
 		console.log($(this)); // nos muestra por consola el indicador del elemento
-		$('#myModal .modal-dialog .modal-content .modal-body').html(""); // Limpia el contenido
+		$('#myModalHome .modal-dialog .modal-content .modal-body').html(""); // Limpia el contenido
 		var src = $(this).find('> a > .bg_fix img').attr('src');// captura el atributo que se desee capturar. en este caso el src de la img
 		//bg = bg.replace('url(','').replace(')','');
 	    console.log(src);
-		$('#myModal .modal-dialog .modal-content .modal-body').append('<img src="'+ src +'">'); // se agrega la img al modal y trae el src de la img
+		$('#myModalHome .modal-dialog .modal-content .modal-body').append('<img src="'+ src +'">'); // se agrega la img al modal y trae el src de la img
 
 	});
 });

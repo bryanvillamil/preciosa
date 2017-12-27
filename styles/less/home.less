@@ -1,36 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-/*
-body.home {
-    div { 
-        text-align: center;
-        background-size: cover;
-    }
-    div h1 { 
-        margin: 0;
-        font-size: 15rem; 
-        text-transform: uppercase;
-        font-family: Montserrat, sans-serif;
-        line-height: 1.8;
-    }
-    .dark h1 {
-        color: #fff;
-        background: #000;
-        mix-blend-mode: darken;
-    }
-    .light h1 {
-        color: #000;
-        background: #fff;
-        font-size: 17vw;
-        mix-blend-mode: lighten;
-    }
-    .dark {
-        background-image: url(../img/4k/corazon.jpg);
-    }
-    .light {
-        background-image: url(../img/4k/corazon.jpg);
-    }
-}*/
-
 body.home {
     height: 100%;
     margin: 0 auto;
@@ -252,6 +220,20 @@ body.home {
                         }
                         .otros {
                             width: 50%;
+                            display: inline-block;
+                            &-arriba {
+                                width: 100%;
+                                height: 50%;
+                            }
+                            &-abajo {
+                                width: 100%;
+                                height: 50%;
+                            }
+                        }
+                        /*
+                        .otros-arriba {
+                            height: 50%;
+                            width: 50%;
                             @media(max-width: 400px){
                                 width: 100%;  
                                 height: 60%; 
@@ -271,12 +253,50 @@ body.home {
                                 }
                             }
                         }
+                        */
                     }
                     @media(max-width: 768px){
                         margin: 1px 0; 
                         .cont {
                             margin: 0 1px;
                         }  
+                    }
+                }
+            }
+        }
+    }
+
+    #myModalHome {
+        text-align: center;
+        &:before {
+            display: inline-block;
+            vertical-align: middle;
+            content: '';
+            height: 100%;
+        }
+        .modal-dialog {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: left;
+            .modal-content {
+                .modal-body {
+                    img {
+                        width: 100%;
+                    }
+                }
+                .modal-footer {
+                    padding: 0;
+                    border-top: none;
+                    button {
+                        box-shadow: none;
+                        padding: 0;
+                        background: none;
+                        border: none;
+                        position: absolute;
+                        right: -1rem;
+                        top: -2.2rem;
+                        font-size: 3.5rem;
+                        color: #000;
                     }
                 }
             }

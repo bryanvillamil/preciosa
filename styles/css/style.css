@@ -20,37 +20,6 @@
   font-weight: normal;
   font-style: normal;
 }
-/*
-body.home {
-    div { 
-        text-align: center;
-        background-size: cover;
-    }
-    div h1 { 
-        margin: 0;
-        font-size: 15rem; 
-        text-transform: uppercase;
-        font-family: Montserrat, sans-serif;
-        line-height: 1.8;
-    }
-    .dark h1 {
-        color: #fff;
-        background: #000;
-        mix-blend-mode: darken;
-    }
-    .light h1 {
-        color: #000;
-        background: #fff;
-        font-size: 17vw;
-        mix-blend-mode: lighten;
-    }
-    .dark {
-        background-image: url(../img/4k/corazon.jpg);
-    }
-    .light {
-        background-image: url(../img/4k/corazon.jpg);
-    }
-}*/
 body.home {
   height: 100%;
   margin: 0 auto;
@@ -265,6 +234,30 @@ body.home .Homegaleria .container .contenedor .caja.tres .cont {
 }
 body.home .Homegaleria .container .contenedor .caja.bottom {
   height: 720px;
+  /*
+                        .otros-arriba {
+                            height: 50%;
+                            width: 50%;
+                            @media(max-width: 400px){
+                                width: 100%;  
+                                height: 60%; 
+                            }
+                            .bot {
+                                width: 100%;
+                                height: 50%;
+                                .arriba {
+                                    width: 100%;
+                                    display: inline-block;
+                                    height: 100%;
+                                }
+                                .abajo {
+                                    width: 100%;
+                                    display: inline-block;
+                                    height:100%;
+                                }
+                            }
+                        }
+                        */
 }
 @media (max-width: 1500px) {
   body.home .Homegaleria .container .contenedor .caja.bottom {
@@ -318,26 +311,15 @@ body.home .Homegaleria .container .contenedor .caja.bottom .grande {
 }
 body.home .Homegaleria .container .contenedor .caja.bottom .otros {
   width: 50%;
+  display: inline-block;
 }
-@media (max-width: 400px) {
-  body.home .Homegaleria .container .contenedor .caja.bottom .otros {
-    width: 100%;
-    height: 60%;
-  }
-}
-body.home .Homegaleria .container .contenedor .caja.bottom .otros .bot {
+body.home .Homegaleria .container .contenedor .caja.bottom .otros-arriba {
   width: 100%;
   height: 50%;
 }
-body.home .Homegaleria .container .contenedor .caja.bottom .otros .bot .arriba {
+body.home .Homegaleria .container .contenedor .caja.bottom .otros-abajo {
   width: 100%;
-  display: inline-block;
-  height: 100%;
-}
-body.home .Homegaleria .container .contenedor .caja.bottom .otros .bot .abajo {
-  width: 100%;
-  display: inline-block;
-  height: 100%;
+  height: 50%;
 }
 @media (max-width: 768px) {
   body.home .Homegaleria .container .contenedor .caja {
@@ -346,6 +328,38 @@ body.home .Homegaleria .container .contenedor .caja.bottom .otros .bot .abajo {
   body.home .Homegaleria .container .contenedor .caja .cont {
     margin: 0 1px;
   }
+}
+body.home #myModalHome {
+  text-align: center;
+}
+body.home #myModalHome:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  height: 100%;
+}
+body.home #myModalHome .modal-dialog {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+body.home #myModalHome .modal-dialog .modal-content .modal-body img {
+  width: 100%;
+}
+body.home #myModalHome .modal-dialog .modal-content .modal-footer {
+  padding: 0;
+  border-top: none;
+}
+body.home #myModalHome .modal-dialog .modal-content .modal-footer button {
+  box-shadow: none;
+  padding: 0;
+  background: none;
+  border: none;
+  position: absolute;
+  right: -1rem;
+  top: -2.2rem;
+  font-size: 3.5rem;
+  color: #000;
 }
 @keyframes scroll-down {
   0% {
