@@ -10,9 +10,10 @@
 <html>
     <head>
   	     <title>::Bienvenida Kmila::</title>
-        <?php include ('inc/head_common.php'); ?>
         <!-- jquery para animaciones Botones -->
         <script src="js/inicio.js"></script>
+        
+        <?php include ('inc/head_common.php'); ?>
     </head>
     <body class="inicio">
     	<header>
