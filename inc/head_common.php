@@ -42,7 +42,7 @@
     <!--<script src="js/jquery-1.9.1.min.js"></script>-->  
     <script type="text/javascript" src="jquery/jquery-ui.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js' type='text/javascript'/>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js' type='text/javascript'/>
 
 
     <!-- jquery de pagina de one direction-->
