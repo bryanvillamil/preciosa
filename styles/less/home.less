@@ -267,17 +267,10 @@ body.home {
     }
 
     #myModalHome {
-        text-align: center;
-        &:before {
-            display: inline-block;
-            vertical-align: middle;
-            content: '';
-            height: 100%;
-        }
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
         .modal-dialog {
-            display: inline-block;
-            vertical-align: middle;
-            text-align: left;
             .modal-content {
                 .modal-body {
                     img {
