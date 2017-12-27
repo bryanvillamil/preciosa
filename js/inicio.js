@@ -1,4 +1,4 @@
-jquery(document).ready(function() {
+$(document).ready(function() {
 	(function(document, window, $) {
 		var $ = jQuery;
 		jQuery(document).ready(function() {
