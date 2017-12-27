@@ -267,10 +267,17 @@ body.home {
     }
 
     #myModalHome {
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
+        &:before {
+            display: inline-block;
+            vertical-align: middle;
+            content: '';
+            height: 100%;
+        }
         .modal-dialog {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: left;
             .modal-content {
                 .modal-body {
                     img {
@@ -292,6 +299,14 @@ body.home {
                         color: #000;
                     }
                 }
+            }
+            @media (max-width: 768px) {
+                position: absolute;
+                top: 15%;
+                left: 0;
+                right: 0;
+                width: 90%;
+                margin: 0 auto;
             }
         }
     }

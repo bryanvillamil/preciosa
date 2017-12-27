@@ -330,9 +330,18 @@ body.home .Homegaleria .container .contenedor .caja.bottom .otros-abajo {
   }
 }
 body.home #myModalHome {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+}
+body.home #myModalHome:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  height: 100%;
+}
+body.home #myModalHome .modal-dialog {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
 }
 body.home #myModalHome .modal-dialog .modal-content .modal-body img {
   width: 100%;
@@ -351,6 +360,16 @@ body.home #myModalHome .modal-dialog .modal-content .modal-footer button {
   top: -2.2rem;
   font-size: 3.5rem;
   color: #000;
+}
+@media (max-width: 768px) {
+  body.home #myModalHome .modal-dialog {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 @keyframes scroll-down {
   0% {
