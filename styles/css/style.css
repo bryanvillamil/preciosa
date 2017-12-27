@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
 @import "../vendor/animate.css";
 @import "../vendor/owl.carousel.css";
 @font-face {
@@ -1658,8 +1659,16 @@ body.paginas.pag-17 #wrapper .titu {
 }
 body.paginas.pag-17 #wrapper .titu h1 {
   text-align: center;
+  margin: 2rem 0;
   color: #000;
   text-shadow: 1px 2px 2px #000;
+  font-family: 'asapregular';
+}
+@media (max-width: 768px) {
+  body.paginas.pag-17 #wrapper .titu h1 {
+    color: #fff;
+    font-size: 2.8rem;
+  }
 }
 body.paginas.pag-17 #wrapper .container {
   background: #fff;
@@ -1728,6 +1737,13 @@ body.paginas.pag-17 #wrapper .container .cuadros a:hover .caja .box-text .descri
     bottom: 28%;
   }
 }
+body.paginas.pag-17 #wrapper .container .cuadros a:hover .caja .firma {
+  color: #fff;
+  text-shadow: 1px 1px 1px transparent;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a:hover .caja .firma i {
+  color: red;
+}
 body.paginas.pag-17 #wrapper .container .cuadros a .caja .box-img {
   overflow: hidden;
 }
@@ -1764,6 +1780,17 @@ body.paginas.pag-17 #wrapper .container .cuadros a .caja .box-text .description 
   font-size: 2rem;
   text-align: center;
   z-index: 2;
+}
+body.paginas.pag-17 #wrapper .container .cuadros a .caja .firma {
+  transition: all .3s;
+  position: absolute;
+  font-size: 1rem;
+  z-index: 9;
+  bottom: .5rem;
+  right: 1rem;
+  color: #000;
+  text-shadow: 1px 1px 1px #fff;
+  font-family: 'Homemade Apple', cursive;
 }
 @media (max-width: 1200px) {
   body.paginas.pag-17 #wrapper .container .cuadros a {

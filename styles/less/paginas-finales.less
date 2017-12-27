@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+
 body.paginas {
 	//****** Pagina 15 ********
 	&.pag-15 {
@@ -257,8 +259,14 @@ body.paginas {
 				padding-top: 0 !important;
 				h1 {
 					text-align: center;
+					margin: 2rem 0;
 					color: #000;
 					text-shadow: 1px 2px 2px #000;
+					font-family: @fuente3;
+					@media(max-width: 768px){
+						color: #fff;
+						font-size: 2.8rem;
+					}
 				}
 			}
 			.container {
@@ -323,6 +331,13 @@ body.paginas {
 										}
 									}
 								}
+								.firma {
+									color: #fff;
+									text-shadow: 1px 1px 1px transparent;
+									i {
+										color: red;
+									}
+								}
 							}
 						}
 						.caja {
@@ -364,6 +379,17 @@ body.paginas {
 									text-align: center;
 									z-index: 2;
 								}	
+							}
+							.firma {
+								transition: all .3s;
+								position: absolute;
+								font-size: 1rem;
+								z-index: 9;
+								bottom: .5rem;
+								right: 1rem;
+								color: #000;
+								text-shadow: 1px 1px 1px #fff;
+								font-family: 'Homemade Apple', cursive;
 							}
 						}
 						@media(max-width: 1200px){
