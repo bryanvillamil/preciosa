@@ -31,7 +31,8 @@
 
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Jueves 1 de Agosto</h2>
+                            <h2 class="title">Viendo la mitad de turbo</h2>
+                            <h3 class="subtitle">Jueves 1 de Agosto</h3>
                         </div>
                         <div class="descripcion">
                             <p>Este dia pasamos de lo lindo comimos de todo reimos jugamos hicimos bobadas corrimos y 
@@ -47,7 +48,8 @@
 
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Miercoles 7 de agosto</h2>
+                            <h2 class="title">:O estas Bien kmi?</h2>
+                            <h3 class="subtitle">Miercoles 7 de agosto</h3>
                         </div>
                         <div class="descripcion">
                             <p>Oh,oH ese dia me retrase mas de lo normal mmm si llegue super tarde *** tenia que ir a 
@@ -67,7 +69,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Jueves 15 de Agosto</h2>
+                            <h2 class="title">Corriendo por ti</h2>
+                            <h3 class="subtitle">Jueves 15 de Agosto</h3>
                         </div>
                         <div class="descripcion">
                             <p>Mmmm... La verdad no pense encontrarte en la iglesia recuerdo que me fui

@@ -31,7 +31,8 @@
                     
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Domingo 26 de Mayo</h2>
+                            <h2 class="title">:( Mi billetera</h2>
+                            <h3 class="subtitle">Domingo 26 de Mayo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Ese dia salimos fuimos al mirador de san blas pero primro fuimos a encargar 
@@ -48,7 +49,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Lunes 27 de Mayo</h2>
+                            <h2 class="title">La Encontraron :)</h2>
+                            <h3 class="subtitle">Lunes 27 de Mayo</h3>
                         </div>
                         <div class="descripcion">
                             <p>A medio dia me llego un mensaje tuyo diciendome la encontraron,la encontraron y yo que 
@@ -62,7 +64,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Miercoles 29 de Mayo</h2>
+                            <h2 class="title">Jugando y Jugando</h2>
+                            <h3 class="subtitle">Miercoles 29 de Mayo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Jajajaja...bajaste tomamos gaseosa, al rato me dijiste que fuera por dos vasos

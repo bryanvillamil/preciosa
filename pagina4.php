@@ -29,7 +29,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Jueves 28 de Marzo</h2>
+                            <h2 class="title">Comenzando a soñar</h2>
+                            <h3 class="subtitle">Jueves 28 de Marzo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Desperte y vi un mensaje tuyo, Maravilloso eso me alegro el dia pero era el dia 
@@ -46,7 +47,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Viernes 29 de Marzo</h2>
+                            <h2 class="title">Te pille</h2>
+                            <h3 class="subtitle">Viernes 29 de Marzo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Desperte con tu buso oliendo delicioso y con un mensaje tuyo estaba super feliz aunque dormi 
@@ -54,14 +56,15 @@
                                 contenta y me animo mucho, luego en la tarde te quedaste sin saldo pero te vi en el culto salimos, 
                                 subimos al parque pero tu te fuiste para donde el gordo, luego subi con jader para donde caro, pero 
                                 no estaba te vi bajaste en vivax y posi en la moto de el al rato llego un mensaje con cierto regaño 
-                                porque hiba cogida de la mano con jader. luego baje para mi casa de una momento a otro me aburri 
+                                porque iba cogida de la mano con jader. luego baje para mi casa de una momento a otro me aburri 
                                 mucho lloraba y lloraba porque no se pero tu llegaste e intentaste calmarme pero no fui capaz te 
-                            fuiste y al ratoo me calme</p>
+                                fuiste y al ratoo me calme</p>
                         </div>
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Sabado 30 de Marzo</h2>
+                            <h2 class="title">jajaja Tus descuidos</h2>
+                            <h3 class="subtitle">Sabado 30 de Marzo</h3>
                         </div>
                         <div class="descripcion">
                             <p>OH NOO wilder llego al culto con tu buso... casi me matas bueno tampoco pero si te enojaste te 

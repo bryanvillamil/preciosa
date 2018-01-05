@@ -29,10 +29,11 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Viernes 18 de Octubre</h2>
+                            <h2 class="title">Quieres Volver a ser mi novia?</h2>
+                            <h3 class="subtitle">Viernes 18 de Octubre</h3>
                         </div>
                         <div class="descripcion">
-                            <p>Este dia hibamos a salir quedamos de encontrarnos a la 1 en san ignacio (Donde siempre) 
+                            <p>Este dia ibamos a salir quedamos de encontrarnos a la 1 en san ignacio (Donde siempre) 
                                 como cosa rara llegue tarde pero no fue algo asi que !WOW¡ que tarde mmm, bueno solo 20 minutos 
                                 tarde. jajaja llegue y ahi estabas esperandome y pensando que quiza no hiria, me dijiste que 
                                 estaba hermosa... mentiroso... al tiempo me dijiste que esa camisa con la que fui era horrible y 
@@ -43,16 +44,14 @@
                                 raro y tu me dijiste: "Te puedo decir amor de cariño" jajaja. 
                                 <br>
                                 <br>
-
-                                !TE AMO MI VIDA, TE AMO¡... luego subimos a la terraza almorzamos, y nos comimos ese monton de 
-                                merkato. luego me pediste perdon por aquel "inconveniente" y me preguntaste. si queria volver a 
-                                ser tu novia y obvio mi respuesta fue SIIII... gracias por ese maravilloso dia.
+                                !TE AMO MI VIDA, TE AMO¡... luego subimos a la terraza almorzamos, y nos comimos ese monton de mekato. luego me pediste perdon por aquel "inconveniente" y me preguntaste. si queria volver a ser tu novia y obvio mi respuesta fue SIIII... gracias por ese maravilloso dia.
                             </p>
                         </div>
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>30 de Octubre</h2>
+                            <h2 class="title">Feliz Cumpleaños Bebe</h2>
+                            <h3 class="subtitle">30 de Octubre</h3>
                         </div>
                         <div class="descripcion">
                             <p>Enserio pense que no vendrias entonces no me organize y es mas jader me llamo y me dijo que si iba 
@@ -68,10 +67,11 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Viernes 1 de Noviembre</h2>
+                            <h2 class="title">2da visita a tu House</h2>
+                            <h3 class="subtitle">Viernes 1 de Noviembre</h3>
                         </div>
                         <div class="descripcion">
-                            <p>Esta fue la segunda vez fuiste a mi casa y la primera que almorsaste, no sabia 
+                            <p>Esta fue la segunda vez fuiste a mi casa y la primera que almorzaste, no sabia 
                                 que darte, no sabia que ponerme, no sabia que decirte, como hablar, como sentarme, 
                                 como reirme, estaba super nerviosa. llegaste muy puntual a la 1, almorzamos 
                                 molestamos un rato nos reimos como siempre, jugamos y al rato no sabiamos que hacer, 

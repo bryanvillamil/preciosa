@@ -31,7 +31,8 @@
                     
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Viernes 30 de Agosto</h2>
+                            <h2 class="title">Te Fuiste</h2>
+                            <h3 class="subtitle">Viernes 30 de Agosto</h3>
                         </div>
                         <div class="descripcion">
                             <p>Fue la ultima vez que te vi... tenias una camiseta blanca el bluejeans que te encanta 
@@ -45,7 +46,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>El Porque...</h2>
+                            <h2 class="title">Hemos vivido de todo</h2>
+                            <h3 class="subtitle">El Porque...</h3>
                         </div>
                         <div class="descripcion">
                             <p>No quize poner fechas tristes ni fechas en las que peleamos ni fechas en las 

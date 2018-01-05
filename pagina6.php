@@ -30,7 +30,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Domingo 14 de Abril</h2>
+                            <h2 class="title">No me gusta que llores</h2>
+                            <h3 class="subtitle">Domingo 14 de Abril</h3>
                         </div>
                         <div class="descripcion">
                             <p>Se que estoy poniendo solo fechas importantes pero queria recordar este dia 
@@ -43,7 +44,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Domingo 28 de Abril</h2>
+                            <h2 class="title"> Mas salidas :)</h2>
+                            <h3 class="subtitle">Domingo 28 de Abril</h3>
                         </div>
                         <div class="descripcion">
                             <p>Ese dia fue otro de mis dias mas felices vimos IRON MAN 3 se que te pelie y te dije 
@@ -59,7 +61,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Miercoles 1 de Mayo</h2>
+                            <h2 class="title">Paseo</h2>
+                            <h3 class="subtitle">Miercoles 1 de Mayo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Ese dia fue el paseo recuerdo que un dia antes subimos al parque, "Mercamos" como estaba 

@@ -30,7 +30,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Lunes 13 de Mayo </h2>
+                            <h2 class="title">Promesita</h2>
+                            <h3 class="subtitle">Lunes 13 de Mayo </h3>
                         </div>
                         <div class="descripcion">
                             <p>Promesa del anillo</p>
@@ -48,7 +49,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Miercoles 15 de Mayo</h2>
+                            <h2 class="title">Le enoje Yop</h2>
+                            <h3 class="subtitle">Miercoles 15 de Mayo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Estabamos muy contentos comiendo de lo lindo hasta subiste a la 80 por unas 
@@ -62,12 +64,12 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Sabado 25 de Mayo</h2>
+                            <h2 class="title">Reconciliacíon</h2>
+                            <h3 class="subtitle">Sabado 25 de Mayo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Como hacia mas de 8 dias habiamos terminado nos reencontramos hablamos me prestaste 
-                                tu buso y luego hablamos por mensajes hasta muy tarde. ese dia volvimos me sentia super 
-                            contenta y no se porque pero creo que tu tambien te pusiste feliz.</p>
+                                tu buso y luego hablamos por mensajes hasta muy tarde. ese dia volvimos me sentia super contenta y no se porque pero creo que tu tambien te pusiste feliz.</p>
                         </div>
                     </div>
                 </article>

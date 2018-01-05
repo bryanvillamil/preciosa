@@ -30,7 +30,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Lunes 25 de Marzo</h2>
+                            <h2 class="title">Mi primer enojo :|</h2>
+                            <h3 class="subtitle">Lunes 25 de Marzo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Comenzaste desde temprano a recordarme que hibamos a salir la verdad me estaba 
@@ -48,7 +49,8 @@
 
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Miercoles 27 de Marzo</h2>
+                            <h2 class="title">Nuestra primera Salida</h2>
+                            <h3 class="subtitle">Miercoles 27 de Marzo</h3>
                         </div> 
                         <div class="descripcion">
                             <p>Por fin la fecha que queria recordar, recuerdo que ese dia me levante temprano, me 

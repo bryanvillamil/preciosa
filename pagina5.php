@@ -29,10 +29,11 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Domingo 31 de Marzo</h2>
+                            <h2 class="title">Bautismo y algo mas</h2>
+                            <h3 class="subtitle">Domingo 31 de Marzo</h3>
                         </div>
                         <div class="descripcion">
-                            <p>Me trasnoche un poco contigo tonces me csto un poco levantarme pero lo logre me 
+                            <p> Me trasnoche un poco contigo tonces me costo un poco levantarme pero lo logre me 
                                 arregle me puse falda que te encanta. Despues de la dominical estaba muy nerviosa pero 
                                 feliz porque era el dia de mi bautismo casi no hablamos. Despues nos tenian una sorpresa 
                                 cosa que no sabia te mande un mensaje para que fueras a mi casa llegaste con posi tabas 
@@ -43,12 +44,13 @@
                                 obvioo pense dentro de mi. Pero no te respondi asi te dije si con una sonrisa y un acento BOBO. 
                                 que parecia lela asi me pones TU. miramos el reloj eran como las 11:40 PM eso nunca se me va a 
                                 olvidar... Bryan villamil acevedo te adoro mi noviooo. ahh se me olvidaba dijimos que como no 
-                            siempre habian 31 entonces cumpliriamos los primeros(1). </p>
+                                siempre habian 31 entonces cumpliriamos los primeros(1). </p>
                         </div>
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Viernes 5 de Abril</h2>
+                            <h2 class="title">No Importa</h2>
+                            <h3 class="subtitle">Viernes 5 de Abril</h3>
                         </div>
                         <div class="descripcion">
                         <p class="tituNoimporta">NO IMPORTA- LILI GODMAN 
@@ -69,10 +71,11 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Domingo 7 de Abril</h2>
+                            <h2 class="title">Salida con mis amigos</h2>
+                            <h3 class="subtitle">Domingo 7 de Abril</h3>
                         </div>
                         <div class="descripcion">
-                            <p>El sabado me dijiste que si saliamos con todos yo acepte me dijsite 3:30 en punto pero 
+                            <p>El sabado me dijiste que si saliamos con todos yo acepte me dijsite 3:30 en punto  pero 
                                 luego Noo a el señor se le ocurrio que mejor a las 3 en punto corri me arregle super rapido 
                                 cuando subi vi lo mas lindo que mis ojos pudieran observar que es? eso es obvio TU.
                                 llegamos y me hicieron dar pena "Manada de patos" 

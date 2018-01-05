@@ -30,7 +30,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Viernes 8 de Marzo</h2>
+                            <h2 class="title">Feliz Dia de la mujer :*</h2>
+                            <h3 class="subtitle">Viernes 8 de Marzo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Ese dia despues de que termino la reunion nos fuimos para donde gladys a molestar, 
@@ -49,7 +50,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Sabado 23 de Marzo</h2>
+                            <h2 class="title">Vigilia en Caldas</h2>
+                            <h3 class="subtitle">Sabado 23 de Marzo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Ese dia hablamos por mensajes, te invite para la viglia de caldas (MmM la verdad queria 
@@ -59,7 +61,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Domingo 24 de Marzo</h2>
+                            <h2 class="title">Soy el nuevo elegido (Tigo)</h2>
+                            <h3 class="subtitle">Domingo 24 de Marzo</h3>
                         </div>
                         <div class="descripcion">
                             <p>Recuerdo que me recargaste y empezamos hablar desde temprano y no se porque te puse de 

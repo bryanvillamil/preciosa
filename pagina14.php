@@ -29,8 +29,9 @@
                         <h1>titulo</h1>
                     </div>
                     <div class="caja">
-                        <div class="subtitulo">
-                            <h2>Sabado 2 de Noviembre</h2>
+                        <div class="subtitulo"> 
+                            <h2 class="title">Estas preciosa</h2>
+                            <h3 class="subtitle">Sabado 2 de Noviembre</h3>
                         </div>
                         <div class="descripcion">
                             <p>El dia de mis quince. este dia era yo el centro de atencion todos querian hablarme, 
@@ -47,8 +48,9 @@
                         </div>
                     </div>
                     <div class="caja">
-                        <div class="subtitulo">
-                            <h2>Sabado 9 de Noviembre</h2>
+                        <div class="subtitulo"> 
+                            <h2 class="title">Campamentooo</h2>
+                            <h3 class="subtitle">Sabado 9 de Noviembre</h3>
                         </div>
                         <div class="descripcion">
                             <p>Primer dia del campamento de caunces en copacabana.Pero antes debo recordar lo que 

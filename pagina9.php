@@ -31,7 +31,8 @@
                     
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Sabado 15 de Junio</h2>
+                            <h2 class="title">El tiburon Rojo</h2>
+                            <h3 class="subtitle">Sabado 15 de Junio</h3>
                         </div>
                         <div class="descripcion">
                             <p>Ese dia bajaste en el "tiburon rojo" jajaja llegaste a la casa de gladys nos quedamos 
@@ -43,23 +44,18 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Lunes 24 de Junio</h2>
+                            <h2 class="title">A veces me paso jugando</h2>
+                            <h3 class="subtitle">Lunes 24 de Junio</h3>
                         </div>
                         <div class="descripcion">
-                            <p>Ese dia salimos... y bajamos a la 45 comimos helado a la subida saliste corriendo y no 
-                                me dejabas alcanzarte. cuando te alcanze me comensaste a decir chiquita,enana, alegona y me 
-                                hice la indignada y segui adelante... la verdad eso siempre lo hago porque se que tu sales 
-                                de tras de mi y me abrazas... Cuando llegamos al parque comenzaste a despedirte de yo comence 
-                                a llorar y casualmente comenzo a llover nos pegamos mera mojada pero valio la pena luego pasamos 
-                                por la cancha cogiste agua "esa toda sucia y toda cochina, y me la tiraste en la cara... GASSS 
-                                casi te mato sali corriendo detras de ti pero no te alcanze... intente, luche y volvia a intentar 
-                                mojarte pero no pude." 
+                            <p>Ese dia salimos... y bajamos a la 45 comimos helado a la subida saliste corriendo y no me dejabas alcanzarte. cuando te alcanze me comensaste a decir chiquita,enana, alegona y me hice la indignada y segui adelante... la verdad eso siempre lo hago porque se que tu sales de tras de mi y me abrazas... Cuando llegamos al parque comenzaste a despedirte de yo comence a llorar y casualmente comenzo a llover nos pegamos mera mojada pero valio la pena luego pasamos por la cancha cogiste agua "esa toda sucia y toda cochina, y me la tiraste en la cara... GASSS casi te mato sali corriendo detras de ti pero no te alcanze... intente, luche y volvia a intentar mojarte pero no pude." 
                             </p>
                         </div>
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Viernes 5 de Julio</h2>
+                            <h2 class="title">Se nos perdio la plata jajaja (Santa Elena)</h2>
+                            <h3 class="subtitle">Viernes 5 de Julio</h3>
                         </div>
                         <div class="descripcion">
                             <p>Gracias... comienzo diciendo gracias, te preguntaras ¿porque? mira la respuesta

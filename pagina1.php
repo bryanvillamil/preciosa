@@ -30,7 +30,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Domingo 10 de Febrero</h2>
+                            <h2 class="title">Entrevista (Reportera Hermosa)</h2>
+                            <h3 class="subtitle">Domingo 10 de Febrero</h3>
                         </div>
                         <div class="descripcion">
                             <p>Apenas te empece hablar, fue algo muy charro; Recuerdo que empezamos 
@@ -43,7 +44,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Martes 12 de Febrero</h2>
+                            <h2 class="title">Caminando con mis Historias</h2>
+                            <h3 class="subtitle">Martes 12 de Febrero</h3>
                         </div>
                         <div class="descripcion">
                             <p>Despues del culto camine contigo hasta la carretera en el camino me contaste 
@@ -55,7 +57,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Sabado 23 de Febrero</h2>
+                            <h2 class="title">Mi biblia es tu biblia</h2>
+                            <h3 class="subtitle">Sabado 23 de Febrero</h3>
                         </div>
                         <div class="descripcion">    
                             <p>Recuerdo que este dia nos acompañaste hasta mi casa, Me prestaste tu biblia 
@@ -65,7 +68,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Domingo 24 de Febrero</h2>
+                            <h2 class="title">"Edian con tu permiso"</h2>
+                            <h3 class="subtitle">Domingo 24 de Febrero</h3>
                         </div>
                         <div class="descripcion">    
                             <p>Subimos donde Tatiana Hincapie(la brutica)...ese dia paramos en el parque a comer, 

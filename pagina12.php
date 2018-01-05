@@ -30,7 +30,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Lunes 14 de Octubre</h2>
+                            <h2 class="title">Solo quiero estar contigo</h2>
+                            <h3 class="subtitle">Lunes 14 de Octubre</h3>
                         </div>
                         <div class="descripcion">
                             <p>Dias despues habia llegado a la casa de jader a quedarme... cosa que no te gusto, es 
@@ -55,7 +56,8 @@
                     </div>
                     <div class="caja">
                         <div class="subtitulo">
-                            <h2>Martes 15 de Octubre</h2>
+                            <h2 class="title">Te ganare de nuevo</h2>
+                            <h3 class="subtitle">Martes 15 de Octubre</h3>
                         </div>
                         <div class="descripcion">   
                             <p>Sono el telefono de la casa de jader me sorprendio que fueras TU, jamas pense 
