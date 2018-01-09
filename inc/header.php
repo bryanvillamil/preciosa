@@ -2,7 +2,7 @@
 <header>
     <div class="header-top">
       	<div class="info">
-      		<span>Web Oficial 
+      		<span>Web Oficial
 				<i class="fa fa-check-circle" aria-hidden="true"></i>
       		</span>
       	</div>
@@ -16,7 +16,7 @@
      	<div class="logo">
      		<img src="./styles/img/logo.jpg" alt="">
      	</div>
-      	<div class="menu">	
+      	<div class="menu">
 	     	<button id="nav-mobile-btn">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
@@ -31,20 +31,20 @@
 						  	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Nuestra Historia
 						  	<span class="caret"></span></button>
 						  	<ul class="dropdown-menu">
-							    <li class="primero"><a href="./pagina1.php">página 1 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina2.php">página 2 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina3.php">página 3 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina4.php">página 4 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina5.php">página 5 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina6.php">página 6 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina7.php">página 7 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina8.php">página 8 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina9.php">página 9 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina10.php">página 10 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina11.php">página 11 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina12.php">página 12 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li><a href="./pagina13.php">página 13 <i class="fa fa-share" aria-hidden="true"></i></a></li>
-							    <li class="ultimo"><a href="./pagina14.php">página 14 <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li class="primero"><a href="./pagina1.php">Nuestro Inicio <i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina2.php">O Èl o Yo<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina3.php">Saliendo Contigo Parte 1<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina4.php">Mis Primeros Enojos<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina5.php">Una Gran Noche<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina6.php">Odio Verte Llorar<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina7.php">Lo Mejor Es...<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina8.php">Casi Me Da Un Infarto<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina9.php">Creo Que Te Embarre Jejeje<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina10.php">Saliendo Contigo Parte 2<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina11.php">Te Mudaste :(<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina12.php">Solo Te Amo A Ti<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li><a href="./pagina13.php">Conociendo Tu Mansion<i class="fa fa-share" aria-hidden="true"></i></a></li>
+							    <li class="ultimo"><a href="./pagina14.php">Estas Preciosa<i class="fa fa-share" aria-hidden="true"></i></a></li>
 						  	</ul>
 						</div>
 					</li>
@@ -54,6 +54,6 @@
 					<li class="salir"><a href="./index.php" class="btn">salir<i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
 				</ul>
 			</nav>
-      	</div>	
+      	</div>
      </div>
 </header>

@@ -76,7 +76,7 @@
       blank = this.blankPosition();
       $('#canvas').html('');
       if (this.checkIfWon()) {
-        $('#canvas').append('<span id="windiv"><img src="' + this.image + '"/><div class="banner"> You Won!</div></span>');
+        $('#canvas').append('<span id="windiv"><img src="' + this.image + '"/><div class="banner"> GANASTE Corazón!</div></span>');
         return $('#windiv').show('slow');
       } else {
         _ref = this.places;

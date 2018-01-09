@@ -1325,11 +1325,18 @@ body.paginas .contenedor .container article .caja {
   width: 75%;
   margin: 5rem auto;
 }
-body.paginas .contenedor .container article .caja .subtitulo h2 {
+body.paginas .contenedor .container article .caja .subtitulo .title {
   font-family: 'advent';
   font-weight: 600;
   font-size: 3.5rem;
   color: #ff5f49;
+}
+body.paginas .contenedor .container article .caja .subtitulo .subtitle {
+  margin-top: 0;
+  font-size: 18px;
+}
+body.paginas .contenedor .container article .caja .descripcion {
+  padding-top: 1rem;
 }
 body.paginas .contenedor .container article .caja .descripcion p {
   font-family: 'asapregular';
