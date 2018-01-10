@@ -3,13 +3,13 @@ $(document).ready(function() {
 	// Animacion de scroll con el boton en Home
 	$('.animation').click(function(){
 	    $('html, body').animate({
-	        scrollTop: $(".Homegaleria").offset().top
+	        scrollTop: $(".Homegaleria").offset.top
 	    }, 2000);
 	});
 
 	setTimeout(function(){
 		$('html, body').animate({
-	        scrollTop: $(".Homegaleria").offset().top
+	        scrollTop: $(".Homegaleria").offset.top
 	    }, 2000);
 	}, 3000);
 

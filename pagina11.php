@@ -68,9 +68,15 @@
                         </div>
                     </div>
                     <div class="caja imagenes">
-                        <img src="styles/img/tristezas/cara1.gif" class="cara1">
-                        <img src="styles/img/tristezas/cara2.gif" class="cara2">
-                        <img src="styles/img/tristezas/cara3.gif" class="cara3">
+                        <div class="center">
+                            <img src="styles/img/tristezas/cara1.gif" class="cara1">
+                        </div>
+                        <div class="center">
+                            <img src="styles/img/tristezas/cara2.gif" class="cara2">
+                        </div>
+                        <div class="center">
+                            <img src="styles/img/tristezas/cara3.gif" class="cara3">
+                        </div>
                     </div>
                 </article>
             </div>
