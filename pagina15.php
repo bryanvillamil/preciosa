@@ -11,21 +11,21 @@
     <title>::FeItA::</title>
     <?php include ('inc/head_common.php'); ?>
 
-    <!--................Css con fonts para estilos de letra............--> 
+    <!--................Css con fonts para estilos de letra............-->
     <link rel="stylesheet" type="text/css" href="css/pagina15.css">
     <link rel="stylesheet" href="css/normalize.min.css">
 </head>
 
 <body class="paginas pag-15">
-    
+
     <!-- include MenuMobil-->
     <?php include 'inc/menuMobile.php'; ?>
-    
+
     <div id="wrapper">
         <!-- include HEADER -->
         <?php include 'inc/header.php'; ?>
 
-        <div class="contenedor">  
+        <div class="contenedor">
             <div class="titulo">
                 <h1>AlGuNoS MoMeNtOs uNiCoS</h1>
             </div>
@@ -108,7 +108,7 @@
                             <img src="/styles/img/1.jpg">
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="javascript:void(0)" title="Wow">
                             <img src="/styles/img/wow.jpeg">
@@ -434,6 +434,86 @@
                             <img src="/styles/img/nuevas/yopi.jpeg">
                         </a>
                     </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Sonrie Bebe">
+                            <img src="/styles/img/santa-barbara/paseo.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="AaAaAaAa">
+                            <img src="/styles/img/santa-barbara/paseo4.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Soñando">
+                            <img src="/styles/img/santa-barbara/paseo5.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="AaAmmMm">
+                            <img src="/styles/img/santa-barbara/paseo6.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="No le muerda">
+                            <img src="/styles/img/santa-barbara/paseo7.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Sonrisas">
+                            <img src="/styles/img/santa-barbara/paseo8.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Matando ojitos">
+                            <img src="/styles/img/santa-barbara/paseo9.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="IiiiiIAaA">
+                            <img src="/styles/img/santa-barbara/paseo10.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Le princesa">
+                            <img src="/styles/img/santa-barbara/paseo11.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="en su trono">
+                            <img src="/styles/img/santa-barbara/paseo12.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Pose Pose">
+                            <img src="/styles/img/santa-barbara/paseo13.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Correte pa alla">
+                            <img src="/styles/img/santa-barbara/paseo14.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="En nuestra casa">
+                            <img src="/styles/img/santa-barbara/paseo15.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Libertad">
+                            <img src="/styles/img/santa-barbara/paseo18.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Reina del mundo">
+                            <img src="/styles/img/santa-barbara/paseo16.JPG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Abrazame">
+                            <img src="/styles/img/santa-barbara/paseo17.JPG">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -446,7 +526,7 @@
             <a href="pagina16.php" class="btn-sig btn btn-primary">
                 <i class="fa fa-hand-o-right" aria-hidden="true"></i>
             </a>
-        </div> 
+        </div>
 
         <!-- include FOOTER -->
         <?php include 'inc/footer_common.php'; ?>
