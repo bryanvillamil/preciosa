@@ -671,15 +671,26 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
   }
 }
 .nav-mobile {
-  background-color: #fff;
   bottom: 100%;
   height: 100%;
   position: fixed;
   right: 0;
-  -webkit-transition: all .5s;
   transition: all .5s;
   width: 100%;
   z-index: 999;
+}
+.nav-mobile:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: -1;
 }
 @media (min-width: 1024px) {
   .nav-mobile {
@@ -687,6 +698,7 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
   }
 }
 .nav-mobile .navbar__close {
+  transition: all .5s;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -698,6 +710,7 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
   background: #29778B;
 }
 .nav-mobile .navbar__close i.fa-times {
+  transition: all .5s;
   position: relative;
   top: 6px;
   font-size: 28px;
@@ -707,7 +720,6 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
   line-height: 40px;
   text-align: center;
   background-color: transparent;
-  transition: all 0.5s;
   border-radius: 4px;
   color: #fff;
   opacity: .5;
@@ -731,72 +743,110 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
 }
 .nav-mobile .menu {
   display: none;
-  margin-top: 5rem;
-  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  transition: all .5s;
 }
-.nav-mobile ul {
+.nav-mobile .menu .menu-mobil {
+  height: 100%;
+  width: 100%;
+}
+.nav-mobile .menu ul {
   padding: 0;
   list-style: none;
-}
-.nav-mobile ul li {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-}
-.nav-mobile ul li a {
-  display: inline-block;
   width: 100%;
-  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all .5s;
+}
+.nav-mobile .menu ul li {
+  height: 14.333%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-mobile .menu ul li:nth-child(1) {
+  background: #ECB49A;
+}
+.nav-mobile .menu ul li:nth-child(2) {
+  background: #E47A82;
+}
+.nav-mobile .menu ul li:nth-child(3) {
+  background: #B37084;
+}
+.nav-mobile .menu ul li:nth-child(4) {
+  background: #695C79;
+}
+.nav-mobile .menu ul li:nth-child(5) {
+  background: #3F5B7A;
+}
+.nav-mobile .menu ul li:nth-child(6) {
+  background: #6AB7BC;
+}
+.nav-mobile .menu ul li:nth-child(7) {
+  background: #EDD396;
+}
+.nav-mobile .menu ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   padding: 12px 10px;
   color: #fff;
   transition: all .5s;
 }
-.nav-mobile ul li a:hover {
+.nav-mobile .menu ul li a:hover {
   text-decoration: none;
-  background: #fff;
-  color: #ff5f49;
+  transform: scale(1.1);
 }
-.nav-mobile ul li #accordion {
+.nav-mobile .menu ul li a i {
+  font-size: 3rem;
+  padding-right: .5rem;
+}
+.nav-mobile .menu ul li #accordion {
   margin-bottom: 0;
 }
-.nav-mobile ul li #accordion .panel {
+.nav-mobile .menu ul li #accordion .panel {
   border: none;
   box-shadow: none;
   background: transparent;
 }
-.nav-mobile ul li #accordion .panel-heading {
+.nav-mobile .menu ul li #accordion .panel-heading {
   padding: 0;
   border: none;
   box-shadow: none;
   background: transparent;
 }
-.nav-mobile ul li #accordion .panel-heading h4 {
+.nav-mobile .menu ul li #accordion .panel-heading h4 {
   display: inline-block;
   width: 100%;
   text-align: center;
 }
-.nav-mobile ul li #accordion .panel-heading h4 a {
+.nav-mobile .menu ul li #accordion .panel-heading h4 a {
   display: inline-block;
   width: 100%;
   padding: 12px 10px 16px;
   color: #fff;
 }
-.nav-mobile ul li #accordion .panel-heading h4 a:hover {
+.nav-mobile .menu ul li #accordion .panel-heading h4 a:hover {
   text-decoration: none;
-  background: #fff;
   color: #ff5f49;
 }
-.nav-mobile ul li.dropdown .dropdown-mobile {
+.nav-mobile .menu ul li.dropdown .dropdown-mobile {
   list-style: none;
   display: block !important;
   padding-left: 15px;
   border-left: 1px solid rgba(0, 0, 0, 0.08);
 }
 .nav-mobile--open {
-  transition: all 0.5s;
+  transition: all .5s;
   bottom: 0;
 }
 .nav-mobile--open .menu {
   display: block;
+  transition: all .5s;
 }
 #wrapper {
   transition: all .5s;
