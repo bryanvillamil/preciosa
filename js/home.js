@@ -7,7 +7,7 @@ $(document).ready(function() {
 	    }, 2000);
 	});
 
-	setTimeout(function(){ 
+	setTimeout(function(){
 		$('html, body').animate({
 	        scrollTop: $(".Homegaleria").offset().top
 	    }, 2000);
@@ -35,6 +35,7 @@ $(document).ready(function() {
 
 //Scroll Automatico
 $(document).ready(function() {
+	/*
 	//Menu Responsive
 	var abierto = false;
 	var espere = false;
@@ -55,18 +56,31 @@ $(document).ready(function() {
 	});
 
 	$('#wrapper, .fa-times').click(function() {
-		if (abierto == true && espere == true) { 
+		if (abierto == true && espere == true) {
 			abierto = false;
 			espere = false;
 			$('#wrapper').removeClass(' open');
 			$('.nav-mobile').removeClass(' open');
 		};
 	});
+	*/
+
+
+	//Funcion para abrir el menu cuando aparece la hamburguer.
+    $('#nav-mobile-btn').click(function(){
+        $('.nav-mobile').toggleClass('nav-mobile--open');
+        $('body').css('overflow' , 'hidden');
+    });
+
+    $('.navbar__close').click(function(){
+        $('.nav-mobile').removeClass('nav-mobile--open');
+        $('body').css('overflow', 'visible');
+    });
 
 
 
 	// Scroll Top para flecha
-	$(window).on('scroll',function(){ 
+	$(window).on('scroll',function(){
 	    if($(window).scrollTop() > 400){ $('#ttop').css('opacity',.5);}
 	    else {$('#ttop').css('opacity',0);}
 	});

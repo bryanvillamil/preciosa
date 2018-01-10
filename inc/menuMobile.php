@@ -1,14 +1,14 @@
 <div class="nav-mobile">
-    <div class="cerrar">
+    <div class="navbar__close">
         <i class="fa fa-times"></i>
     </div>
     <div class="titulo">
         <h2 class="titleMenu">Menu</h2>
     </div>
     <div class="logo">
-        <img src="./styles/img/nombres/cami16.jpg" alt="">
+        <!--<img src="./styles/img/nombres/cami16.jpg" alt="">-->
     </div>
-    <div class="menu">  
+    <div class="menu">
         <nav class="menu-mobil">
             <ul>
                 <li><a href="./inicio.php" itemprop="url">Inicio <i class="fa fa-heart" aria-hidden="true"></i></a></li>
@@ -50,5 +50,5 @@
                 <li class="salir"><a href="./index.php">salir<i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
-    </div>  
+    </div>
 </div>

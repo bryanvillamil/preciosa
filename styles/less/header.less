@@ -4,18 +4,18 @@ header {
 	margin-bottom: 8rem;
 	padding-bottom: 1rem;
 	@media(max-width: 1024px){
-		margin-bottom: 5rem;	
+		margin-bottom: 5rem;
 		padding-bottom: .5rem;
 	}
 	@media(max-width: 768px){
-		margin-bottom: 3rem;	
+		margin-bottom: 3rem;
 	}
 	.header-top {
 		display: flex;
 		justify-content: space-between;
 		@media(max-width: 768px){
 			padding-top: 1.5rem;
-		}	
+		}
 		.info {
 			padding-left: 2rem;
 			span {
@@ -29,12 +29,12 @@ header {
 				span {
 					font-size: 2.2rem;
 					font-weight: 600;
-				}	
+				}
 			}
 			@media(max-width: 568px){
 				span {
 					font-size: 1.8rem
-				}	
+				}
 			}
 		}
 		.nombres {
@@ -50,12 +50,12 @@ header {
 				span {
 					font-size: 2.2rem;
 					font-weight: 600;
-				}	
+				}
 			}
 			@media(max-width: 568px){
 				span {
 					font-size: 1.8rem
-				}	
+				}
 			}
 		}
 	}
@@ -98,7 +98,7 @@ header {
 			display: flex;
 			@media(max-width: 1024px){
 				//width: 100%;
-				text-align: right;	
+				text-align: right;
 				justify-content: flex-end;
 			}
 			button#nav-mobile-btn {
@@ -129,13 +129,13 @@ header {
 			    	margin-top: 4px;
 			    }
 				@media(max-width: 1024px){
-					display: inline-block;	
+					display: inline-block;
 				}
 			}
 			.menu-mobil {
 				width: 100%;
 				@media(max-width: 1024px){
-					display: none;	
+					display: none;
 				}
 				ul {
 					text-align: right;
@@ -268,40 +268,31 @@ header {
 // menu Mobil
 
 .nav-mobile {
-	position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    visibility: hidden;
-    width: 300px;
+	background-color: #fff;
+    bottom: 100%;
     height: 100%;
-    background: url('/styles/img/fondos/fondo-menu.png');
-    background-size: contain;
-    padding: 15px 0;
-    overflow: auto;
-    transform: translate3d(-50%, 0, 0);
-    transition: all 0.2s;
+    position: fixed;
+    right: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    width: 100%;
+    z-index: 999;
     @media(min-width: 1024px){
     	display: none;
     }
-    &.open {
-    	visibility: visible;
-	    transition: transform 0.5s;
-	    transform: translate3d(0, 0, 0);
-	    .cerrar {
-	    	display: inline-block;
-	    }
-	    .menu {
-	    	display: block;
-	    }
-    }
-    .cerrar {
+    .navbar__close {
     	width: 100%;
-    	display: none;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 5rem;
+        background: #29778B;
 	    i.fa-times {
-	    	position: absolute;
+	    	position: relative;
 		    top: 6px;
-		    right: 15px;
 		    font-size: 28px;
 		    cursor: pointer;
 		    width: 40px;
@@ -311,9 +302,10 @@ header {
 		    background-color: transparent;
 		    transition: all 0.5s;
 		    border-radius: 4px;
+            color: @white;
+            opacity: .5;
 		    &:hover {
-		        color: #4f5154;
-	    		background-color: #f1f3f6;	
+		        opacity: 1;
 		    }
 	    }
     }
@@ -395,6 +387,14 @@ header {
     			}
     		}
     	}
+    }
+
+    &--open {
+        transition: all 0.5s;
+        bottom: 0;
+        .menu {
+            display: block;
+        }
     }
 }
 
