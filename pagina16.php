@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <script>
-        if (localStorage.getItem("logueado") == "true") {
+        if (localStorage.getItem("user") != undefined)  {
 
         }else {
             window.location = "./index.php";
@@ -16,7 +16,7 @@
 
     <!-- include MenuMobil-->
     <?php include 'inc/menuMobile.php'; ?>
-    
+
     <div id="wrapper">
         <!-- include HEADER -->
         <?php include 'inc/header.php'; ?>
@@ -42,7 +42,7 @@
             <a href="pagina17.php" class="btn-sig btn btn-primary">
                 <i class="fa fa-hand-o-right" aria-hidden="true"></i>
             </a>
-        </div> 
+        </div>
 
         <!-- include FOOTER -->
         <?php include 'inc/footer_common.php'; ?>

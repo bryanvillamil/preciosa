@@ -11,6 +11,8 @@ $(document).ready(function() {
 
 		    // en este caso limite son 2 horas.
 		    var limite = 1000 * 60 * 60 * 2 ;
+		    console.log((Number(ingreso.time)+limite)>(new Date()).getTime());
+		    console.log(Number(ingreso.time),limite,(new Date()).getTime());
 		    if((Number(ingreso.time)+limite)>(new Date()).getTime()){
 		      console.log("ingresa");
 		    }else{
@@ -35,6 +37,11 @@ $(document).ready(function() {
 	  	}
 	  	$( "#validator" ).text( "Not valid!" ).show().fadeOut( 1000 );
 	  	event.preventDefault();
+	});
+
+	$('.salir').click(function(){
+		localStorage.removeItem('user');
+		window.location.href= "./index.php";
 	});
 	seguridad();
 });

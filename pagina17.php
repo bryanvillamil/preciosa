@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <script>
-        if (localStorage.getItem("logueado") == "true") {
+        if (localStorage.getItem("user") != undefined)  {
 
         }else {
             window.location = "./index.php";
@@ -26,7 +26,7 @@
         <div class="titu container">
             <h1>100 razones de porque te AmoOo</h1>
         </div>
-        
+
 
         <div class="contenido">
             <div class="container">
@@ -1442,7 +1442,7 @@
             <a href="pagina18.php" class="btn-sig btn btn-primary">
                 <i class="fa fa-hand-o-right" aria-hidden="true"></i>
             </a>
-        </div> 
+        </div>
 
         <!--pie de pagina con nombre y año-->
         <?php include 'inc/footer_common.php'; ?>

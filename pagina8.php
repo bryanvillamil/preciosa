@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <script>
-        if (localStorage.getItem("logueado") == "true") {
+        if (localStorage.getItem("user") != undefined)  {
 
         }else {
             window.location = "./index.php";

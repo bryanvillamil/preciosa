@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <script>
-    if (localStorage.getItem("logueado") == "true") {
+    if (localStorage.getItem("user") != undefined)  {
 
     }else {
         window.location = "./index.php";
@@ -13,7 +13,7 @@
 
     <?php include 'inc/head_common.php'; ?>
 
-    <!--................librerias de jquery............-->    
+    <!--................librerias de jquery............-->
     <script src="jquery/jquery-1.6.3.min.js"></script>
     <script type="text/javascript" src="jquery/jquery-ui.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -24,15 +24,15 @@
         <!-- cabecera de pagina-->
         <div class="img-logo">
             <img src="img/mmm.jpg">
-        </div>  
-    </header>       
+        </div>
+    </header>
     <!-- recuadro principal de la pagina -->
-    <div class="contenedor"> 
+    <div class="contenedor">
         <div id="video">
             <video width="920" height="550" autoplay>
                 <source src="video/creo_en_ti.mp" type="video/mp4">creo en ti
                 </video>
-            </div>  
+            </div>
 
             <div id="titulo">
                 <h1 class="aceptas">Si Aceptas... PrOmEtO</h1>
@@ -40,7 +40,7 @@
 
             <div id="promesas">
                 <p>Estar para ti siempre</p>
-            </div>        
+            </div>
         </div>
 
         <!-- botons -->
@@ -53,7 +53,7 @@
                 <i class="fa fa-heart" aria-hidden="true"></i>
                 Si
             </a>
-        </div> 
+        </div>
 
         <!-- include FOOTER -->
         <?php include 'inc/footer_common.php'; ?>

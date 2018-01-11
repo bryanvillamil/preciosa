@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <script>
-    if (localStorage.getItem("logueado") == "true") {
+    if (localStorage.getItem("user") != undefined)  {
 
     }else {
         window.location = "./index.php";
@@ -22,7 +22,7 @@
         <?php include 'inc/header.php'; ?>
 
         <!-- recuadro principal de la pagina -->
-        <div class="contenedor"> 
+        <div class="contenedor">
             <div class="container">
                 <article>
                     <div class="titulo">
@@ -34,11 +34,11 @@
                             <h3 class="subtitle">Domingo 10 de Febrero</h3>
                         </div>
                         <div class="descripcion">
-                            <p>Apenas te empece hablar, fue algo muy charro; Recuerdo que empezamos 
-                                con una "entrevista" bastante boba, Me caiste super bien, bajamos juntos 
+                            <p>Apenas te empece hablar, fue algo muy charro; Recuerdo que empezamos
+                                con una "entrevista" bastante boba, Me caiste super bien, bajamos juntos
                                 hasta la carretera hablando de tu trabajo como "vendedor" Decias que vendias
                                 los bananos mas ricos, que por eso todo el dia comias bananos pero que para
-                                variar hacias sancocho de banano,sopa de banano, arroz de banano, jugo de 
+                                variar hacias sancocho de banano,sopa de banano, arroz de banano, jugo de
                             banano... Me hiciste reir mucho.</p>
                         </div>
                     </div>
@@ -48,10 +48,10 @@
                             <h3 class="subtitle">Martes 12 de Febrero</h3>
                         </div>
                         <div class="descripcion">
-                            <p>Despues del culto camine contigo hasta la carretera en el camino me contaste 
-                                muchas cosas sobre tu vida y tambien te conte varias, Me contaste como te 
-                                apuñalearon me mostraste las cicatrices... Si lo se apenas me las mostraste puse 
-                                cara de terror y de susto jejeje;  Me regalaste unas galletas bridge de chocolate, 
+                            <p>Despues del culto camine contigo hasta la carretera en el camino me contaste
+                                muchas cosas sobre tu vida y tambien te conte varias, Me contaste como te
+                                apuñalearon me mostraste las cicatrices... Si lo se apenas me las mostraste puse
+                                cara de terror y de susto jejeje;  Me regalaste unas galletas bridge de chocolate,
                             Tambien me preguntaste varias cosas de edian.</p>
                         </div>
                     </div>
@@ -60,9 +60,9 @@
                             <h2 class="title">Mi biblia es tu biblia</h2>
                             <h3 class="subtitle">Sabado 23 de Febrero</h3>
                         </div>
-                        <div class="descripcion">    
-                            <p>Recuerdo que este dia nos acompañaste hasta mi casa, Me prestaste tu biblia 
-                                que despues se convirtio en nuestra... Recuerdo que tenias el camibuso cafe y 
+                        <div class="descripcion">
+                            <p>Recuerdo que este dia nos acompañaste hasta mi casa, Me prestaste tu biblia
+                                que despues se convirtio en nuestra... Recuerdo que tenias el camibuso cafe y
                             como empezo a llovisnar se lo prestaste a Izza. :(</p>
                         </div>
                     </div>
@@ -71,17 +71,17 @@
                             <h2 class="title">"Edian con tu permiso"</h2>
                             <h3 class="subtitle">Domingo 24 de Febrero</h3>
                         </div>
-                        <div class="descripcion">    
-                            <p>Subimos donde Tatiana Hincapie(la brutica)...ese dia paramos en el parque a comer, 
-                                Recuerdo que dijiste : "Edian con el permiso suyo pero Camila esta muy linda". Despues 
-                                cuando salimos de la panadeia se me iva a quedar tu biblia; Pero izza me hizo caer en 
-                                cuenta,... Cuando ibamos de bajada para la casa fue cuando me comenzaste a decir que  
-                                ibas a orar para que el señor me despertara el amor por ti, que la oracion del justo 
+                        <div class="descripcion">
+                            <p>Subimos donde Tatiana Hincapie(la brutica)...ese dia paramos en el parque a comer,
+                                Recuerdo que dijiste : "Edian con el permiso suyo pero Camila esta muy linda". Despues
+                                cuando salimos de la panadeia se me iva a quedar tu biblia; Pero izza me hizo caer en
+                                cuenta,... Cuando ibamos de bajada para la casa fue cuando me comenzaste a decir que
+                                ibas a orar para que el señor me despertara el amor por ti, que la oracion del justo
                             puede... Te Quieroo.</p>
                         </div>
                     </div>
-                </article> 
-            </div>         
+                </article>
+            </div>
         </div>
 
         <!-- botons -->
@@ -92,7 +92,7 @@
             <a href="pagina2.php" class="btn-sig btn btn-primary">
                 <i class="fa fa-hand-o-right" aria-hidden="true"></i>
             </a>
-        </div>   
+        </div>
 
         <!-- include FOOTER -->
         <?php include 'inc/footer_common.php'; ?>

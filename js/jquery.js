@@ -1,4 +1,4 @@
-    // menu typeface cycle
+/*    // menu typeface cycle
 
     $('.hover-cycle').find('a').on('mouseover', function(e) {
         if(!$(this).parent().hasClass('active') || $(this).parent().parent().parent().parent().hasClass('mobilised'))
@@ -79,6 +79,6 @@ $(document).ready(function(){
 
 
 
-
+*/
 
 

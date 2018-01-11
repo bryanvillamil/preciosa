@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <script>
-    if (localStorage.getItem("logueado") == "true") {
+    if (localStorage.getItem("user") != undefined)  {
 
     }else {
         window.location = "./index.php";
@@ -53,7 +53,7 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div> 
+            </div>
             <div class="arrow-down">
                 <div class="animation">
                     <span></span>
@@ -61,7 +61,7 @@
             </div>
         </div>
 
-        
+
         <div class="Homegaleria">
             <div class="titulo">
                 <h2>Foticos</h2>
@@ -92,14 +92,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="cont">  
+                        <div class="cont">
                             <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/tengoganasdeti/kyb.gif" alt="">
                                 </div>
                             </a>
                         </div>
-                        <div class="cont"> 
+                        <div class="cont">
                             <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/tengoganasdeti/tu-y-yo.jpg" alt="">
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                     <div class="caja bottom">
-                        <div class="cont grande">   
+                        <div class="cont grande">
                             <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/licioso.jpeg" alt="">
@@ -140,14 +140,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="cont">  
+                        <div class="cont">
                             <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/nuevas/familia.jpeg" alt="">
                                 </div>
                             </a>
                         </div>
-                        <div class="cont"> 
+                        <div class="cont">
                             <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
                                     <img src="styles/img/nuevas/modelo.jpeg" alt="">
@@ -167,11 +167,11 @@
             <a href="pagina1.php" class="btn-sig btn btn-primary">
                 <i class="fa fa-hand-o-right" aria-hidden="true"></i>
             </a>
-        </div> 
+        </div>
 
         <!-- include FOOTER -->
         <?php include 'inc/footer_common.php'; ?>
-        
+
         <!-- Modal -->
         <div id="myModalHome" class="modal fade" role="dialog">
             <div class="modal-dialog">

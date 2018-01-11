@@ -51,7 +51,7 @@
 					<li><a href="./pagina15.php">Nuestro album <i class="fa fa-camera-retro" aria-hidden="true"></i></a></li>
 					<li><a href="./pagina16.php">Juguemos <i class="fa fa-puzzle-piece" aria-hidden="true"></i></a></li>
 					<li><a href="./pagina17.php">!00 Razones <i class="fa fa-list-ol" aria-hidden="true"></i></a></li>
-					<li class="salir"><a href="./index.php" class="btn">salir<i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+					<li class="salir"><a href="#" class="btn">salir<i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
 				</ul>
 			</nav>
       	</div>

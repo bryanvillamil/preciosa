@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <script>
-    if (localStorage.getItem("logueado") == "true") {
+    if (localStorage.getItem("user") != undefined) {
 
     }else {
         window.location = "./index.php";
@@ -10,7 +10,7 @@
 <html>
     <head>
   	     <title>::Bienvenida Kmila::</title>
-        
+
         <?php include ('inc/head_common.php'); ?>
         <!-- jquery para animaciones Botones -->
         <script src="js/inicio.js"></script>
@@ -60,7 +60,7 @@
             <a href="home.php" class="btn-sig btn btn-primary">
                 <i class="fa fa-hand-o-right" aria-hidden="true"></i>
             </a>
-        </div> 
+        </div>
 
     </body>
 </html>

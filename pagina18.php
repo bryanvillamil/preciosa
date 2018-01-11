@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <script>
-        if (localStorage.getItem("logueado") == "true") {
+        if (localStorage.getItem("user") != undefined)  {
 
         }else {
             window.location = "./index.php";
@@ -13,10 +13,10 @@
 
 </head>
 
-<body class="paginas pag-18">  
-    <div id="wrapper">   
+<body class="paginas pag-18">
+    <div id="wrapper">
         <!-- recuadro principal de la pagina -->
-        <div id="contenedor">  
+        <div id="contenedor">
             <div class="portada">
                  <img src="img/tengoganasdeti/h.gif" class="img-portada">
 
@@ -39,7 +39,7 @@
                     <img src="img/tengoganasdeti/tu y yo.jpg" class="cuatro">
                     <img src="img/tengoganasdeti/t.jpg" class="cinco">
                  </div>
-            </div>  
+            </div>
         </div>
 
         <!-- botons -->
@@ -50,7 +50,7 @@
             <a href="pagina19.php" class="btn-sig btn btn-primary">
                 <i class="fa fa-hand-o-right" aria-hidden="true"></i>
             </a>
-        </div> 
+        </div>
 
         <!-- include FOOTER -->
         <?php include 'inc/footer_common.php'; ?>
