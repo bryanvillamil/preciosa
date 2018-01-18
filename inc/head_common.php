@@ -12,23 +12,22 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <!--................ Css Para carga de WEB (CSS) ............--> 
+    <!--................ Css Para carga de WEB (CSS) ............-->
     <link rel="stylesheet" type="text/css" href="styles/css/style.css">
 
 
     <!-- script -->
     <script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
+        <!--<script src="js/jquery-1.9.1.min.js"></script>-->
+    <script type="text/javascript" src="jquery/jquery-ui.js"></script>
 
     <!-- jquery para LOGUEO -->
     <script src="js/login.js"></script>
     <!-- jquery -->
     <script src="js/home.js"></script>
 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    
+
     <!-- [/] jquery -->
 
     <!-- bootstrap -->
@@ -36,16 +35,7 @@
     <!-- [/] bootstrap -->
 
     <!-- [/] script -->
-       
-
-    <!--................librerias de jquery............-->    
-    <!--<script src="js/jquery-1.9.1.min.js"></script>-->  
-    <script type="text/javascript" src="jquery/jquery-ui.js"></script>
+    <!--................librerias de jquery............-->
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js' type='text/javascript'/>
 
 
-    <!-- jquery de pagina de one direction-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-    
