@@ -23,8 +23,10 @@
 
     <!-- jquery para LOGUEO -->
     <script src="js/login.js"></script>
-    <!-- jquery -->
+    
+    <!-- jquery
     <script src="js/home.js"></script>
+    -->
 
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 

@@ -1020,6 +1020,13 @@ body.inicio .act-table {
 }
 body.inicio .act-table-cell {
   display: inline-block;
+  position: relative;
+  top: -150px;
+}
+@media (max-width: 768px) {
+  body.inicio .act-table-cell {
+    top: 10px;
+  }
 }
 body.inicio a,
 body.inicio a:hover,
@@ -1164,6 +1171,11 @@ body.inicio .cube {
   -webkit-transition: 1s;
   -moz-transition: 1s;
 }
+@media (max-width: 568px) {
+  body.inicio .cube {
+    height: 50%;
+  }
+}
 body.inicio .cube.reverse-back {
   transform: rotateX(180deg) rotateY(0deg) rotateZ(-180deg);
   -webkit-transform: rotateX(180deg) rotateY(0deg) rotateZ(-180deg);
@@ -1289,6 +1301,28 @@ body.inicio .bottom .active {
   transform: translateZ(800px);
   -webkit-transform: translateZ(800px);
   -moz-transform: translateZ(800px);
+}
+body.inicio .gif {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (min-width: 569px) and (max-width: 768px) {
+  body.inicio .gif img {
+    display: none;
+  }
+}
+@media (max-width: 568px) {
+  body.inicio .gif {
+    height: 50%;
+    bottom: 0;
+  }
+  body.inicio .gif img {
+    width: 100%;
+  }
 }
 body.inicio .buttons {
   display: inline-block;

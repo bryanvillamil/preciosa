@@ -19,6 +19,11 @@ body.inicio {
 
     .act-table-cell {
         display: inline-block;
+        position: relative;
+        top: -150px;
+        @media(max-width: 768px){
+            top: 10px;   
+        }
     }
 
     a,
@@ -174,7 +179,10 @@ body.inicio {
         -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         transition: 1s;
         -webkit-transition: 1s;
-        -moz-transition: 1s
+        -moz-transition: 1s;
+        @media(max-width: 568px){
+            height: 50%;   
+        }
     }
 
     .cube.reverse-back {
@@ -326,6 +334,30 @@ body.inicio {
         transform: translateZ(800px);
         -webkit-transform: translateZ(800px);
         -moz-transform: translateZ(800px)
+    }
+
+
+    // Gif video
+
+    .gif {
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+        @media(min-width: 569px) and (max-width: 768px) {
+            img {
+                display: none;
+            }
+        }
+        @media(max-width: 568px){
+            height: 50%;
+            bottom: 0;
+            img {
+                width: 100%;
+            }   
+        }
     }
 
 

@@ -514,6 +514,47 @@
                             <img src="/styles/img/santa-barbara/paseo17.JPG">
                         </a>
                     </li>
+
+                    <li>
+                        <a href="javascript:void(0)" title="Abrazame">
+                            <img src="/styles/img/salidas/c1.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Abrazame">
+                            <img src="/styles/img/salidas/c2.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Abrazame">
+                            <img src="/styles/img/salidas/c3.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Abrazame">
+                            <img src="/styles/img/salidas/c4.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Abrazame">
+                            <img src="/styles/img/salidas/c5.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Abrazame">
+                            <img src="/styles/img/salidas/c6.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Abrazame">
+                            <img src="/styles/img/salidas/c7.jpeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="Abrazame">
+                            <img src="/styles/img/salidas/c8.jpeg">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

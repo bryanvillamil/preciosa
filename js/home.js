@@ -65,25 +65,6 @@ $(document).ready(function() {
 	});
 	*/
 
-
-	//Funcion para abrir el menu cuando aparece la hamburguer.
-    $('#nav-mobile-btn').click(function(){
-        $('.nav-mobile').toggleClass('nav-mobile--open');
-        $('body').css('overflow' , 'hidden');
-    });
-
-    $('.navbar__close').click(function(){
-        $('.nav-mobile').removeClass('nav-mobile--open');
-        $('body').css('overflow', 'visible');
-    });
-
-
-
-	// Scroll Top para flecha
-	$(window).on('scroll',function(){
-	    if($(window).scrollTop() > 400){ $('#ttop').css('opacity',.5);}
-	    else {$('#ttop').css('opacity',0);}
-	});
 	// Animacion de scroll con el boton en Home
 	$('#ttop').click(function(){
 	    $('html, body').animate({

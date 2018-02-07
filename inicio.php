@@ -50,6 +50,10 @@
     				</div>
     			</section>
     		</div>
+
+            <div class="gif">
+                <img src="styles/img/salidas/caras2.GIF" loop>
+            </div>
     	</div>
 
 		<!-- botons -->

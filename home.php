@@ -10,6 +10,7 @@
     <head>
   	     <title>::Bienvenida Kmila::</title>
         <?php include ('inc/head_common.php'); ?>
+        <script src="js/home.js"></script>
     </head>
     <body class="home">
         <div class="content-bottom">
@@ -79,7 +80,46 @@
                         <div class="cont">
                             <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
                                 <div class="box-img bg_fix">
-                                    <img src="styles/img/risast.jpeg" alt="">
+                                    <img src="styles/img/salidas/c8.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="caja tres">
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/salidas/c2.jpeg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/salidas/c3.jpeg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/salidas/c1.jpeg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="caja dos">
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/salidas/c9.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/salidas/c7.jpeg" alt="">
                                 </div>
                             </a>
                         </div>
