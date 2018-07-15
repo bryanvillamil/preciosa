@@ -797,13 +797,14 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
 }
 .nav-mobile .menu ul li a {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   padding: 12px 10px;
   color: #fff;
   transition: all .5s;
   font-size: 1.8rem;
+  padding-left: 15%;
 }
 .nav-mobile .menu ul li a:hover {
   text-decoration: none;
