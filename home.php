@@ -195,6 +195,45 @@
                             </a>
                         </div>
                     </div>
+                    <div class="caja dos">
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/nuevas2/siempre8.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/nuevas2/siempre7.jpg">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="caja tres">
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/nuevas2/siempre2.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/nuevas2/ella.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModalHome">
+                                <div class="box-img bg_fix">
+                                    <img src="styles/img/nuevas2/momentos5.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1439,9 +1439,6 @@
             <a href="pagina16.php" class="btn-ant btn btn-danger">
                 <i class="fa fa-hand-o-left" aria-hidden="true"></i>
             </a>
-            <a href="pagina18.php" class="btn-sig btn btn-primary">
-                <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-            </a>
         </div>
 
         <!--pie de pagina con nombre y año-->

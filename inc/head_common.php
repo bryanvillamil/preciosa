@@ -23,7 +23,8 @@
 
     <!-- jquery para LOGUEO -->
     <script src="js/login.js"></script>
-    
+
+
     <!-- jquery
     <script src="js/home.js"></script>
     -->
@@ -39,5 +40,3 @@
     <!-- [/] script -->
     <!--................librerias de jquery............-->
     <script type="text/javascript" src="js/jquery.js"></script>
-
-

@@ -22,7 +22,7 @@ body.inicio {
         position: relative;
         top: -150px;
         @media(max-width: 768px){
-            top: 10px;   
+            top: 10px;
         }
     }
 
@@ -74,7 +74,7 @@ body.inicio {
                 -webkit-border-radius: 5px;
                 -moz-border-radius: 5px;
                 display: inline-block;
-                margin: 0 auto; 
+                margin: 0 auto;
                 li {
                     color: #fff;
                     a {
@@ -89,7 +89,7 @@ body.inicio {
             }
         }
         @media(max-width: 768px){
-            top: 1.5rem; 
+            top: 1.5rem;
             nav {
                 ul {
                     width: 80%;
@@ -103,7 +103,7 @@ body.inicio {
                         }
                     }
                 }
-            }  
+            }
         }
     }
 
@@ -136,14 +136,14 @@ body.inicio {
         font-weight: 500;
         color: #fff;
         @media(max-width: 991px){
-            font-size: 10rem;   
+            font-size: 10rem;
         }
         @media(max-width: 768px){
-            font-size: 5rem; 
-            width: 90%;  
+            font-size: 5rem;
+            width: 90%;
         }
         @media(max-width: 400px){
-            font-size: 4rem;   
+            font-size: 4rem;
         }
     }
 
@@ -159,7 +159,19 @@ body.inicio {
         left: 0;
         transition: .8s;
         -webkit-transition: .8s;
-        -moz-transition: .8s
+        -moz-transition: .8s;
+        .gif {
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+            @media(min-width: 991px) and (max-width: 1300px) {
+                width: 420px;
+            }
+            @media(min-width: 1301px){
+                width: 600px;
+            }
+        }
     }
 
     #wrap.active {
@@ -181,7 +193,7 @@ body.inicio {
         -webkit-transition: 1s;
         -moz-transition: 1s;
         @media(max-width: 568px){
-            height: 50%;   
+            height: 50%;
         }
     }
 
@@ -356,7 +368,7 @@ body.inicio {
             bottom: 0;
             img {
                 width: 100%;
-            }   
+            }
         }
     }
 
@@ -364,7 +376,7 @@ body.inicio {
 
     // Botones de seguir
     .buttons {
-        display: inline-block;        
+        display: inline-block;
         .btn-sig {
             position: absolute;
             right: 2%;
@@ -380,17 +392,13 @@ body.inicio {
         @media(max-width: 768px){
             .btn-sig, .btn-ant {
                 top: 30%;
-            }   
+            }
         }
         @media(max-width: 568px){
             .btn-sig, .btn-ant {
                 top: initial;
                 bottom: 4%;
-            }   
+            }
         }
     }
 }
-
-
-
-
