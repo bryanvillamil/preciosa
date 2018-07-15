@@ -80,11 +80,13 @@
                         </div>
                     </div>
 
-                    <img src="img/peli.jpg" class="peli">
-                    <img src="img/oz.jpg" class="oz">
-                    <img src="img/taxi.jpg" class="taxi">
-                    <div class="beso">
-                        <img src="img/beso.jpg" class="beso">
+                    <div class="caja__img ">
+                        <img src="styles/img/peli.jpg" class="peli">
+                        <img src="styles/img/oz.jpg" class="oz">
+                        <img src="styles/img/taxi.jpg" class="taxi">
+                        <div class="beso">
+                            <img src="styles/img/beso.jpg" class="beso">
+                        </div>
                     </div>
                 </article>
             </div>

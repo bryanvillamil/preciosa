@@ -65,8 +65,22 @@ body.paginas {
 							font-size: 1.6rem;
 						}
 					}
+					&__img {
+						display: flex;
+						justify-content: space-around;
+						align-items: flex-start;
+						img {
+							width: 200px;
+							object-fit: contain;
+						}
+					}
 					@media(max-width: 991px){
 						width: 90%;
+						&__img {
+							img {
+								width: 140px;
+							}
+						}
 					}
 					@media(max-width: 768px){
 						margin: 2.5rem auto;
@@ -78,6 +92,12 @@ body.paginas {
 						.subtitulo {
 							.title {
 								font-size: 2.5rem;
+							}
+						}
+
+						&__img {
+							img {
+								width: 100px;
 							}
 						}
 					}
@@ -92,6 +112,22 @@ body.paginas {
 							p {
 								font-size: 1.6rem;
 								line-height: 2.2rem;
+							}
+						}
+
+						&__img {
+							flex-direction: column;
+							img {
+								width: 250px;
+								margin: 0 auto;
+								margin-bottom: 30px;
+							}
+							.beso {
+								width: 250px;
+								margin: 0 auto;
+								display: flex;
+								align-items: center;
+								padding-bottom: 20px;
 							}
 						}
 					}
