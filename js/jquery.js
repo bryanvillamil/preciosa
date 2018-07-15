@@ -19,16 +19,17 @@ $(document).ready(function() {
 });
 */
 
+$(document).ready(function() {
+    //Funcion para abrir el menu cuando aparece la hamburguer.
+    $('#nav-mobile-btn').click(function(){
+        $('.nav-mobile').toggleClass('nav-mobile--open');
+        $('body').css('overflow' , 'hidden');
+    });
 
-//Funcion para abrir el menu cuando aparece la hamburguer.
-$('#nav-mobile-btn').click(function(){
-    $('.nav-mobile').toggleClass('nav-mobile--open');
-    $('body').css('overflow' , 'hidden');
-});
-
-$('.navbar__close').click(function(){
-    $('.nav-mobile').removeClass('nav-mobile--open');
-    $('body').css('overflow', 'visible');
+    $('.navbar__close').click(function(){
+        $('.nav-mobile').removeClass('nav-mobile--open');
+        $('body').css('overflow', 'visible');
+    });
 });
 
 
