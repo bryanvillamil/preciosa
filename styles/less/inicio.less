@@ -1,4 +1,14 @@
 body.inicio {
+    @media(max-width: 568px){
+        background: #28aadc;
+    }
+
+    .buttons {
+        @media(min-width: 768px){
+            position: relative;
+        }
+
+    }
     ul {
         list-style: none;
         padding: 0;
@@ -165,6 +175,18 @@ body.inicio {
                 width: 100%;
                 object-fit: cover;
             }
+            @media(max-width: 991px){
+                width: 600px;
+            }
+            @media(max-width: 768px){
+                width: 500px;
+            }
+            @media(max-width: 568px){
+                width: 400px;
+            }
+            @media(max-width: 420px){
+                width: 90%;
+            }
             @media(min-width: 991px) and (max-width: 1300px) {
                 width: 420px;
             }
@@ -259,7 +281,10 @@ body.inicio {
         text-align: center;
         box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
         -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
-        -moz-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5)
+        -moz-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
+        @media(max-width: 568px) {
+            box-shadow: none;
+        }
     }
 
     .front {
@@ -360,7 +385,7 @@ body.inicio {
         text-align: center;
         @media(min-width: 569px) and (max-width: 768px) {
             img {
-                display: none;
+                //display: none;
             }
         }
         @media(max-width: 568px){

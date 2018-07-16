@@ -1013,6 +1013,16 @@ header .header-bottom .menu .menu-mobil ul li.salir a .fa {
   padding: 10px 12px;
   width: 100%;
 }
+@media (max-width: 568px) {
+  body.inicio {
+    background: #28aadc;
+  }
+}
+@media (min-width: 768px) {
+  body.inicio .buttons {
+    position: relative;
+  }
+}
 body.inicio ul {
   list-style: none;
   padding: 0;
@@ -1165,6 +1175,26 @@ body.inicio #wrap .gif img {
   width: 100%;
   object-fit: cover;
 }
+@media (max-width: 991px) {
+  body.inicio #wrap .gif {
+    width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  body.inicio #wrap .gif {
+    width: 500px;
+  }
+}
+@media (max-width: 568px) {
+  body.inicio #wrap .gif {
+    width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  body.inicio #wrap .gif {
+    width: 90%;
+  }
+}
 @media (min-width: 991px) and (max-width: 1300px) {
   body.inicio #wrap .gif {
     width: 420px;
@@ -1254,6 +1284,11 @@ body.inicio .face {
   -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 568px) {
+  body.inicio .face {
+    box-shadow: none;
+  }
+}
 body.inicio .front {
   background-color: #28aadc;
 }
@@ -1331,11 +1366,6 @@ body.inicio .gif {
   right: 0;
   margin: 0 auto;
   text-align: center;
-}
-@media (min-width: 569px) and (max-width: 768px) {
-  body.inicio .gif img {
-    display: none;
-  }
 }
 @media (max-width: 568px) {
   body.inicio .gif {
